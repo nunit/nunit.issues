@@ -8,8 +8,10 @@ When we you raise an issue, or when you want to contribute a fix, you can use th
 
 1. Create a folder with the name `IssueXXXX` where `XXXX` is the issue number.
 2. Add a readme.md file, which contains at the minimum a link to the issue in the NUnit repository.
-3. Create your repro solution any way you like.  It should compile and the tests you add should run, failing or not, based on what your case is.
+3. Add a link in the issue to your repro folder in this repo.
+4. Create your repro solution any way you like.  It should compile and the tests you add should run, failing or not, based on what your case is.
 
 Note that this is not a requirement for adding issues, because some issues are not easily reproduced. Use this when you can reproduce an issue, it makes it much easier for others, including the NUnit team, to understand your issue and hopefully find a fix to it.
+
 
 

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerifyNUnit4", "VerifyNUnit4.csproj", "{2C3BC129-44B6-4904-A7BD-AD3540C288CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8885CD6F-4674-485B-A1A1-D9A04FAFE7CB}"
+	ProjectSection(SolutionItems) = preProject
+		.runsettings = .runsettings
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C3BC129-44B6-4904-A7BD-AD3540C288CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3BC129-44B6-4904-A7BD-AD3540C288CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3BC129-44B6-4904-A7BD-AD3540C288CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3BC129-44B6-4904-A7BD-AD3540C288CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCDDE14C-A500-490E-8680-5BAC52D44C43}
+	EndGlobalSection
+EndGlobal

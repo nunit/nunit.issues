@@ -1,0 +1,1 @@
+Repro for [Issue 3807](https://github.com/nunit/nunit/issues/3807)

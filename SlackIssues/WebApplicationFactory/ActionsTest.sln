@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppIntegrationTesting", "WebAppIntegrationTesting\WebAppIntegrationTesting.csproj", "{7936D90B-B770-44B6-A7C6-930F14311EA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppIntegrationTesting.MsTest", "WebAppIntegrationTesting.MsTest\WebAppIntegrationTesting.MsTest.csproj", "{0514AA8E-AF4D-4EE7-B271-ED6105C1B485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{7936D90B-B770-44B6-A7C6-930F14311EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7936D90B-B770-44B6-A7C6-930F14311EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7936D90B-B770-44B6-A7C6-930F14311EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0514AA8E-AF4D-4EE7-B271-ED6105C1B485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0514AA8E-AF4D-4EE7-B271-ED6105C1B485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0514AA8E-AF4D-4EE7-B271-ED6105C1B485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0514AA8E-AF4D-4EE7-B271-ED6105C1B485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

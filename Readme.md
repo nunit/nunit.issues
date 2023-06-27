@@ -15,5 +15,3 @@ Note that this is not a requirement for adding issues, because some issues are n
 
 
 
-
-

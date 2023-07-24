@@ -20,6 +20,15 @@ namespace AssertPerformance
             }
         }
 
+        public static void IsNotMultipleOf100Default(int value, string message="")
+        {
+            if (IsMultipleOf100(value))
+            {
+                throw new AssertException(message);
+            }
+        }
+
+
         public static void IsNotMultipleOf100Formattable(int value, FormattableString message)
         {
             if (IsMultipleOf100(value))

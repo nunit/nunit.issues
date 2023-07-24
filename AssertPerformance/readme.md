@@ -25,5 +25,18 @@ From our main applications 209978 Assert calls only 445 use a format string ({0}
 |  UseFormattableMessage | .NET Framework 4.8 |  12.593 ns |  2.12 |      88 B |        1.57 |
 ```
 
-
+If we add a default message, it comes in as follows:
+```
+|                 Method |            Runtime |        Mean |  Ratio | Allocated | Alloc Ratio |
+|----------------------- |------------------- |------------:|-------:|----------:|------------:|
+|  UseFormatAndArguments |           .NET 7.0 |   5.7493 ns |  1.000 |      56 B |        1.00 |
+| UsePreformattedMessage |           .NET 7.0 |  32.9035 ns |  5.691 |     104 B |        1.86 |
+|  UseFormattableMessage |           .NET 7.0 |  11.2665 ns |  1.945 |      88 B |        1.57 |
+|      UseDefaultMessage |           .NET 7.0 |   0.0133 ns |  0.002 |         - |        0.00 |
+|                        |                    |             |        |           |             |
+|  UseFormatAndArguments | .NET Framework 4.8 |   7.2573 ns |  1.000 |      56 B |        1.00 |
+| UsePreformattedMessage | .NET Framework 4.8 | 160.7722 ns | 22.178 |     160 B |        2.86 |
+|  UseFormattableMessage | .NET Framework 4.8 |  13.2190 ns |  1.817 |      88 B |        1.57 |
+|      UseDefaultMessage | .NET Framework 4.8 |   0.0078 ns |  0.001 |         - |        0.00 |
+```
 

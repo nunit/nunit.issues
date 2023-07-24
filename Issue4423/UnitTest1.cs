@@ -67,6 +67,12 @@ public class Testit
         Assert.That(sut,Has.Property(nameof(SomeStuff.Name)).EqualTo("AName"));
     }
 
+    [Test]
+    public void Dummy6()
+    {
+        var sut = new SomeStuff("AName");
+        Assert.That(sut.Name, Has.Exactly(5).Items);
+    }
 
 }
 

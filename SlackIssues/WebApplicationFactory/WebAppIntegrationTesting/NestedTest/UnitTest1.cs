@@ -14,7 +14,6 @@ public class NestedTests
         {
             RequestUri = new Uri("http://localhost/hw")
         });
-
         Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
     }
 
@@ -25,7 +24,6 @@ public class NestedTests
         {
             RequestUri = new Uri("http://localhost/hw2")
         });
-
         Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
     }
 }

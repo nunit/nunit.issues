@@ -1,8 +1,10 @@
 
 
+using JetBrains.Annotations;
+
 namespace Issue4455;
 
-//[MeansImplicitUse]
+[MeansImplicitUse]
 
 public class NewDatapointSourceAttribute :  DatapointSourceAttribute
 {}

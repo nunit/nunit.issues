@@ -5,7 +5,7 @@ public class Tests
     [OneTimeSetUp]
     public void Setup()
     {
-        throw new Exception("OneTimeSetup");
+        SomeOtherMethod();
     }
 
     [Test]
@@ -13,4 +13,9 @@ public class Tests
     {
         Assert.Pass();
     }
+
+    public void SomeOtherMethod()
+    {
+        throw new Exception("SomeOtherMethod");
+    }   
 }

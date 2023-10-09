@@ -46,4 +46,21 @@ public class Tests
     {
         Assert.That(()=>ThrowingMethod(), Throws.TypeOf<ArgumentException>());
     }
+
+
+    [Test]
+    public void TestDelayed()
+    {
+        stopWatch.Start();
+        Assert.That(()=>Count(),Is.GreaterThan(10).After(2).Seconds.PollEvery(500));
+    }
+
+    private int Count()
+    {
+        var ts = stopWatch.Elapsed;
+        TestContext.WriteLine("RunTime " + $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}.{ts.Milliseconds / 10:00}");
+        TestContext.WriteLine($"TestDelayed: {count}");
+        TestContext.WriteLine($"------------------");
+        return ++count;
+    }
 }

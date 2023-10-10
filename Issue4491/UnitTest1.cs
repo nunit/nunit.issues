@@ -25,4 +25,5 @@ public class Tests
         bool x = true;
         Assert.That(x, Is.True);
     }
+
 }

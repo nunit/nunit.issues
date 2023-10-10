@@ -55,6 +55,13 @@ public class Tests
         Assert.That(()=>Count(),Is.GreaterThan(10).After(2).Seconds.PollEvery(500));
     }
 
+    [Test]
+    public void TestDelayedWithoutPollEvery()
+    {
+        stopWatch.Start();
+        Assert.That(() => Count(), Is.GreaterThan(10).After(2000,500));
+    }
+
     private int Count()
     {
         var ts = stopWatch.Elapsed;

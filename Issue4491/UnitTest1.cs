@@ -11,11 +11,12 @@ public class Tests
     //}
 
     [Test]
-    [Repeat(30)]
+    [Repeat(5)]
     public void Test2()
     {
         bool x = true;
         Assert.That(x, Is.True);
+        TestContext.WriteLine(TestContext.CurrentContext.Test.ID);
     }
 
     [Test]

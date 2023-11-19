@@ -1,0 +1,1 @@
+﻿See [Issue 1713](https://github.com/nunit/nunit/issues/1713)  and [comment there](https://github.com/nunit/nunit/issues/1713#issuecomment-1817866573) for details.

@@ -8,7 +8,7 @@ namespace Issue1713Dummy;
 
 internal class Dummy
 {
-    [Test]
+   [Test]
     public void DummyTest()
     {
         Assert.Pass();

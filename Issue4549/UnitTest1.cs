@@ -19,7 +19,7 @@ public class MyDataClass
         get
         {
             yield return new TestCaseData(12, 3).SetCategory("So what do you mean, -this works ? Right.").Returns(4);
-            yield return new TestCaseData(12, 2).Returns(6);
+            yield return new TestCaseData(12, 2).SetName("Whatever-1").Returns(6);
             yield return new TestCaseData(12, 4).Returns(3);
         }
     }

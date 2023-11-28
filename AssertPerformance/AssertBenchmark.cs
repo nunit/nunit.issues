@@ -44,6 +44,18 @@ namespace AssertPerformance
             UseDefaultMessage(TestValue);
         }
 
+        [Benchmark]
+        public void UseDefaultMessageWithLineNumber()
+        {
+            UseDefaultMessageWithLinenumber(TestValue);
+        }
+
+        [Benchmark]
+        public void UseFormattableMessageWithLineNumber()
+        {
+            UseFormattableMessageWithLineNumber(TestValue);
+        }
+
         public static void UseFormatAndArguments(int value)
         {
             Assert.IsNotMultipleOf100FormatAndArguments(value, "Expected {0} not to be a multiple of 100", value);
@@ -59,14 +71,24 @@ namespace AssertPerformance
             Assert.IsNotMultipleOf100Formattable(value, $"Expected {value} not to be a multiple of 100");
         }
 
+        public static void UseFormattableMessageWithLineNumber(int value)
+        {
+            Assert.IsNotMultipleOf100FormattedWithLineNumber(value, $"Expected {value} not to be a multiple of 100");
+        }
+
         public static void UseDefaultMessage(int value)
+        {
+            Assert.IsNotMultipleOf100Default(value);
+        }
+
+        public static void UseDefaultMessageWithLinenumber(int value)
         {
             Assert.IsNotMultipleOf100Default(value);
         }
 
         public static void UseNonformattedMessage(int value)
         {
-            Assert.IsNotMultipleOf100Default(value,"Some arbitrary text");
+            Assert.IsNotMultipleOf100Default(value, "Some arbitrary text");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace AssertPerformance
 {
@@ -20,7 +21,23 @@ namespace AssertPerformance
             }
         }
 
+        public static void IsNotMultipleOf100FormattedWithLineNumber(int value, FormattableString message, [CallerLineNumber] int linenr = 0)
+        {
+            if (IsMultipleOf100(value))
+            {
+                throw new AssertException(message.ToString()+$"  Linenr: {linenr}");
+            }
+        }
+
         public static void IsNotMultipleOf100Default(int value, string message="")
+        {
+            if (IsMultipleOf100(value))
+            {
+                throw new AssertException(message);
+            }
+        }
+
+        public static void IsNotMultipleOf100DefaultWithLineNumber(int value, string message = "", [CallerLineNumber] int linenr=0)
         {
             if (IsMultipleOf100(value))
             {

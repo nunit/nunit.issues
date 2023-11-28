@@ -71,7 +71,7 @@ public class Testit
     public void Dummy6()
     {
         var sut = new SomeStuff("AName");
-        Assert.That(sut.Name, Has.Exactly(5).Items);
+        Assert.That(sut, Has.Exactly(5).Items);
     }
 
 }

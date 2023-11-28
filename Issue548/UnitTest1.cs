@@ -22,7 +22,7 @@ public class Tests2
         get
         {
             yield return new TestCaseData(123);
-            yield return new TestCaseData(456);
+            yield return new TestCaseData(456).SetProperty("SomeProperty","Whatever");
         }
     }
 
@@ -30,9 +30,12 @@ public class Tests2
     [Property("TestCaseID", "id2")]
     public void TestWithDataSource(int number)
     {
-        var prop = TestContext.CurrentContext.Test.Properties["TestCaseID"].FirstOrDefault() ?? "";
-        var test = TestContext.CurrentContext.Test;
-        TestContext.WriteLine($"{prop}");
-        Assert.That(prop, Is.EqualTo("id2"));
+        var x = TestContext.CurrentContext.Test.PropertyHierarchy();
+        Assert.That(x.Count, number == 456 ? Is.EqualTo(4) : Is.EqualTo(3));
+        var props = TestContext.CurrentContext.Test.PropertyValues("TestCaseID").Select(o=>o.ToString()).ToList();
+        Assert.That(props,Is.Not.Null);
+        TestContext.WriteLine($"{string.Join(',',props)}");
+        Assert.That(props, Does.Contain("id2"));
     }
 }
+;

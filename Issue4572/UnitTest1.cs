@@ -14,6 +14,7 @@ public class Tests
         TestClass a = new() { Prop = 2 };
         TestClass b = new() { Prop = 2 };
 
-        Assert.That(b, Is.Not.EqualTo(a));
+        // Assert.That(b, Is.Not.EqualTo(a));  // Value Equality - they are identical
+        Assert.That(b, Is.Not.SameAs(a));      // Reference Equality - they are different objects
     }
 }

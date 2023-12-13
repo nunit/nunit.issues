@@ -8,6 +8,7 @@ class TestClass
 
 public class Tests
 { 
+    [Category("Whatever")]
     [Test]
     public void CompareObjects()
     {

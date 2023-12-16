@@ -7,6 +7,6 @@ public class Tests
     [Test]
     public async Task Test1()
     {
-        await Assert.ThatAsync(()=>Method(),Is.EqualTo(""));
+        await Assert.ThatAsync(()=>Method().AsTask(),Is.EqualTo(""));
     }
 }

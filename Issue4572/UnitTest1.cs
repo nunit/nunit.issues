@@ -8,6 +8,7 @@ class TestClass
 
 public class PropertyTester
 { 
+    [Category("Whatever")]
     [Test]
     public void CompareObjects()
     {

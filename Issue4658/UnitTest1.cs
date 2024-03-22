@@ -2,13 +2,20 @@ using NUnit.Framework;
 
 namespace ApartmentTest
 {
-    [TestFixture, Apartment(ApartmentState.STA)]
+    [TestFixture]
     public class Tests
     {
-        [Test]
+        [Test, Apartment(ApartmentState.STA)]
         public void ApartmentStateShouldBeSTA()
         {
-            Assert.That(Thread.CurrentThread.GetApartmentState(), Is.EqualTo(ApartmentState.STA));
+            var state = GetApartmentState(Thread.CurrentThread);
+            Assert.That(state, Is.EqualTo(ApartmentState.STA));
+        }
+
+
+        protected static ApartmentState GetApartmentState(Thread thread)
+        {
+            return thread.GetApartmentState();
         }
     }
 }

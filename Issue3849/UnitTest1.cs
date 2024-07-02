@@ -24,6 +24,7 @@ public class Tests
             Assert.Catch<ArgumentException>(() => throw new InvalidOperationException("Hello"));
             Assert.Catch<ArgumentException>(() => { });
             Assert.That("A", Is.EqualTo("B"));
+            ClassicAssert.AreEqual(42, 42);
         });
     }
 }

@@ -1,7 +1,5 @@
 ﻿
 using System.Diagnostics;
-using System.Security.Permissions;
-
 using NUnit.Framework;
 
 namespace RetrieveParallelScope
@@ -12,7 +10,6 @@ namespace RetrieveParallelScope
     /// <remarks>
     /// Implemented following the <see cref="ConsoleTraceListener"/> implementation.
     /// </remarks>
-    [HostProtection(Synchronization = true)]
     public class ProgressTraceListener : TextWriterTraceListener
     {
         /// <summary>

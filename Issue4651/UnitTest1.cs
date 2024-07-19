@@ -1,14 +1,30 @@
 namespace Issue4651;
 
-public class Tests
+[TestFixture, Category("TestsA")]
+public class TestsA
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
-    public void Test1()
+    public void TestInA()
+    {
+        Assert.Pass();
+    }
+}
+
+[TestFixture, Category("TestsB")]
+public class TestsB
+{
+    [Test]
+    public void TestInB()
+    {
+        Assert.Fail();
+    }
+}
+
+[TestFixture, Category("TestsC")]
+public class TestsC
+{
+    [Test]
+    public void TestInC()
     {
         Assert.Pass();
     }

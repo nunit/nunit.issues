@@ -32,7 +32,8 @@ public class Tests2
     {
         var x = TestContext.CurrentContext.Test.PropertyHierarchy();
         Assert.That(x.Count, number == 456 ? Is.EqualTo(4) : Is.EqualTo(3));
-        var props = TestContext.CurrentContext.Test.PropertyValues("TestCaseID").Select(o=>o.ToString()).ToList();
+        var propsa = TestContext.CurrentContext.Test.PropertyValues("TestCaseID").Select(o=>o.Values).ToList();
+        var props = propsa.SelectMany(o=>o.Cast<string>()).ToList();
         Assert.That(props,Is.Not.Null);
         TestContext.WriteLine($"{string.Join(',',props)}");
         Assert.That(props, Does.Contain("id2"));

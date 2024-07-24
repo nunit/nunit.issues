@@ -8,8 +8,8 @@
   </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="NUnit" Version="4.1.0-Issue4744" />
-        <PackageReference Include="NUnitLite" Version="4.1.0-Issue4744" />
+        <PackageReference Include="NUnit" Version="4.1.99999" />
+        <PackageReference Include="NUnitLite" Version="4.1.99999" />
     </ItemGroup>
 
 </Project>

@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0;net472</TargetFrameworks>
+    <TargetFrameworks>net6.0;net472</TargetFrameworks>
     <RootNamespace>GlobalSpecflowUtility</RootNamespace>
 	  <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="NUnit" Version="3.13.3" />
+		<PackageReference Include="NUnit" Version="4.1.0" />
 		<PackageReference Include="SpecFlow" Version="3.9.74" />
 		<PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
 	</ItemGroup>

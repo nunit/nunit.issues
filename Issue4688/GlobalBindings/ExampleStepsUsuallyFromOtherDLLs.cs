@@ -17,7 +17,7 @@ namespace GlobalBindings
         public void ThenThePathExists()
         {
             var runningTest = SpecFlowTestConfig.Instance.RunningTest;
-            Assert.NotNull(runningTest.ScenarioLogPath);
+            Assert.That(runningTest.ScenarioLogPath,Is.Not.Null);
             //TODO: Add breakpoint here (2)
             Console.WriteLine("ScenarioLogPath is still: " + runningTest.ScenarioLogPath);
         }

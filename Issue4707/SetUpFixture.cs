@@ -19,7 +19,7 @@ namespace RetrieveParallelScope
         [OneTimeSetUp]
         public virtual void OneTimeSetUp()
         {
-            Trace.Listeners.Add(new ProgressTraceListener()); // Note that this listener "directs tracing or debugging output", i.e. always both, even being named "Trace".
+            System.Diagnostics.Trace.Listeners.Add(new ProgressTraceListener()); // Note that this listener "directs tracing or debugging output", i.e. always both, even being named "Trace".
         }
     }
 }

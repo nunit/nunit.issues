@@ -7,13 +7,21 @@ namespace demo.testenv
 {
     internal class HookExtensionAttribute : NUnitAttribute, IApplyToContext
     {
+        private static TestEnvHookExtension TestEnvExtension;
+
         public void ApplyToContext(TestExecutionContext context)
         {
-            context.HookExtension = new HookExtension();
+            TestEnvExtension = new TestEnvHookExtension();
+            context.HookExtension.BeforeAnySetUps += TestEnvExtension.BeforeAnySetUps;
+            context.HookExtension.AfterAnySetUps += TestEnvExtension.AfterAnySetUps;
+            context.HookExtension.BeforeTest += TestEnvExtension.BeforeTest;
+            context.HookExtension.AfterTest += TestEnvExtension.AfterTest;
+            context.HookExtension.BeforeAnyTearDowns += TestEnvExtension.BeforeAnyTearDowns;
+            context.HookExtension.AfterAnyTearDowns += TestEnvExtension.AfterAnyTearDowns;
         }
     }
 
-    internal class HookExtension : IHookExtension
+    internal class TestEnvHookExtension
     {
         public void BeforeAnySetUps(TestExecutionContext context, IMethodInfo setUpMethod)
         {

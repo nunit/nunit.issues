@@ -23,7 +23,7 @@
 
     <!-- TestSessionTimeout was introduced in Visual Studio 2017 version 15.5 -->
     <!-- Specify timeout in milliseconds. A valid value should be >= 0. If 0, timeout will be infinity-->
-    <TestSessionTimeout>10000</TestSessionTimeout>
+    <TestSessionTimeout>0</TestSessionTimeout>
 
     <!-- Specify a Boolean value, which defines the exit code when no tests are discovered.-->
     <TreatNoTestsAsError>false</TreatNoTestsAsError>
@@ -32,7 +32,7 @@
     <!--<ExecutionThreadApartmentState>STA</ExecutionThreadApartmentState>-->
 
     <!-- Disables in-assembly parallel execution, applies to both MSTest and NUnit -->
-    <DisableParallelization>false</DisableParallelization>
+    <DisableParallelization>true</DisableParallelization>
     <DisableAppDomain>false</DisableAppDomain>
     <CollectSourceInformation>true</CollectSourceInformation>
 
@@ -104,13 +104,14 @@
   <!-- NUnit3 adapter, uncomment sections to set as appropriate, numeric, booleans, enums have their default values below, except RandomSeed -->
   <!-- For documentation, see https://docs.nunit.org/articles/vs-test-adapter/Tips-And-Tricks.html -->
   <NUnit>
+	<DebugExecution>True</DebugExecution>
     <!--<BasePath>D:\Dev\NUnit\nunit3-vs-adapter\demo\NUnitTestDemo\bin\Release</BasePath>-->
     <!--<PrivateBinPath>extras;more.extras</PrivateBinPath>-->
     <DefaultTimeout>0</DefaultTimeout>
     <!--<WorkDirectory>work</WorkDirectory>-->
     <InternalTraceLevel>Off</InternalTraceLevel>
     <!--<RandomSeed>1234567</RandomSeed>-->
-    <NumberOfTestWorkers>-1</NumberOfTestWorkers>
+    <NumberOfTestWorkers>1</NumberOfTestWorkers>
     <Verbosity>5</Verbosity>
     <!--<UseVsKeepEngineRunning>false</UseVsKeepEngineRunning>-->
     <!--<ShadowCopyFiles>false</ShadowCopyFiles>-->

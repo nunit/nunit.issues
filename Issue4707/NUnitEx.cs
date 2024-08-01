@@ -17,6 +17,13 @@ namespace RetrieveParallelScope
                 var contextProperties = TestContext.CurrentContext.Test.Properties[PropertyNames.ParallelScope];
                 Trace.WriteLine(" > ParallelScope @ TestContextEx: " + IEnumerableEx.ItemsToString(contextProperties));
 
+               
+                var contextPropertiesParent = TestContext.CurrentContext.Test.Parent.Properties[PropertyNames.ParallelScope];
+                Trace.WriteLine(" > ParallelScope @ Parent.TestContextEx: " + IEnumerableEx.ItemsToString(contextPropertiesParent));
+
+                var contextPropertiesGrandParent = TestContext.CurrentContext.Test.Parent.Parent.Properties[PropertyNames.ParallelScope];
+                Trace.WriteLine(" > ParallelScope @ GrandParentTestContextEx: " + IEnumerableEx.ItemsToString(contextPropertiesGrandParent));
+
                 var executionContextProperties = TestExecutionContext.CurrentContext.CurrentTest.Properties[PropertyNames.ParallelScope];
                 Trace.WriteLine(" > ParallelScope @ TestExecutionContextEx: " + IEnumerableEx.ItemsToString(executionContextProperties));
 

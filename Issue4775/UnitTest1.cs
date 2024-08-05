@@ -1,5 +1,6 @@
 
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 
 namespace Issue4775;
 
@@ -18,9 +19,11 @@ public class Tests
 
         // OK
         Assert.That(a, Is.EqualTo(b));
+        ClassicAssert.AreEqual(a, b);
 
         // Throws
         Assert.That(a, Is.EqualTo(b).AsCollection);
+        CollectionAssert.AreEqual(a, b);
     }
 
     private static IEnumerable<int[,]> ColumnIterator()

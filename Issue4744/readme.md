@@ -10,31 +10,6 @@ Workaround:
 - use ```dotnet build``` for the first compilation
 - Visual Studio: before compiling add the MyGet feed (https://www.myget.org/F/nunit_issues/api/v3/index.json) to the package manager configuration
 
-## Important files to look at
+## Reading
 
-The hook extension itself is defined in ```HookExtension.cs```. This is used to implement reusable test environments between different high-level tests:
-
-* ```[OneTimeSetUp]``` \ ```[OneTimeTearDown]``` Level: Set up the required database and enable all admin-relevant preparations and cleanups.
-
-* ```[SetUp]``` \ ```[TearDown]``` level: Set up a test customer and enable the appropriate methods for all customer-related preparation and cleanup.
-
-The ```HookExtension.cs``` file also defines an ```IApplyToContext``` attribute that will enable the hook extension in the ```AssemblyInfo.cs``` file.
-
-The ``WebShopDemoTest`` test in the corresponding file can then focus on preparing the relevant data for the web applications in the various SetUps and TearDowns and on the test itself.
-
-## Console Output as a table
-
-| Method | Message |
-| ------ | ------- |
-| BeforeAnySetUps | **[Test Environment]** Initiate Database (on demand), load schemas (on demand), login as admin |
-| PrepareProductCatalog | _[OneTimeSetUp]_ add some products to the selling catalog |
-| BeforeAnySetUps | **[Test Environment]** Create Customer User and login |
-| PrepareShoppingCart | _[SetUp]_ Set delivery address and payment method for customer user |
-| BeforeTest | **[Test Environment]** Open shopping application as a common starting point for all tests |
-| SomeTest | _[Test]_ some testing in the created environment |
-| AfterTest | **[Test Environment]** Close shopping application |
-| CleanUserRelatedDataInOtherApps | _[TearDown]_ clean up custom user related data in other sub systems like payment or delivery |
-| AfterAnyTearDowns | **[Test Environment]** Log off and remove Customer User |
-| BeforeAnyTearDowns | **[Test Environment]** login as admin |
-| CleanProductCatalog | _[OneTimeTearDown]_ clean up product catalog |
-| AfterAnyTearDowns | **[Test Environment]** log off as admin |
+Demo.cs contains everything and can be read from top to bottom.

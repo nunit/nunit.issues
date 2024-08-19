@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tdlib", "tdlib\tdlib.csproj", "{2F51615E-D1DA-440E-B3E8-C5049E19C053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tstests", "tstests\tstests.csproj", "{D43CAFBC-9E81-4BAE-9A52-8EB601C68961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F51615E-D1DA-440E-B3E8-C5049E19C053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F51615E-D1DA-440E-B3E8-C5049E19C053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F51615E-D1DA-440E-B3E8-C5049E19C053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F51615E-D1DA-440E-B3E8-C5049E19C053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43CAFBC-9E81-4BAE-9A52-8EB601C68961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43CAFBC-9E81-4BAE-9A52-8EB601C68961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43CAFBC-9E81-4BAE-9A52-8EB601C68961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43CAFBC-9E81-4BAE-9A52-8EB601C68961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

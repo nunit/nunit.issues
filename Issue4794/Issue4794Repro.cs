@@ -2,10 +2,10 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Issue4794
+namespace Repro
 {
 
-    public class TestIt
+    public class Issue4794Repro
     {
 
         [Test]

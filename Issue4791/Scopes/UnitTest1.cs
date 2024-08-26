@@ -2,11 +2,11 @@
 namespace Some
 {
 
-    [SetUpFixture, Parallelizable(ParallelScope.Fixtures)]
+    [SetUpFixture, Parallelizable(ParallelScope.Fixtures)]   // Works
     internal class Setup
     { }
 
-    // [Parallelizable(ParallelScope.Fixtures)]
+    // [Parallelizable(ParallelScope.Fixtures)]  // Does not work
     // [TestFixture]
     public class Dummy
     {
@@ -17,7 +17,7 @@ namespace Some
 
 
 
-    // [Parallelizable(ParallelScope.Fixtures)]
+    // [Parallelizable(ParallelScope.Fixtures)]  // Does not work
     [TestFixture("Hey")]
     [TestFixture("Hello")]
     public class SomeFixture(string s)

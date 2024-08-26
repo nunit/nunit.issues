@@ -1,23 +1,45 @@
+//#define opt1
+//#define opt2
+#define opt3
+
+
+
 
 namespace Some
 {
-
+#if opt1
     [SetUpFixture, Parallelizable(ParallelScope.Fixtures)]   // Works
+#endif
     internal class Setup
     { }
-
+#if opt2
     // [Parallelizable(ParallelScope.Fixtures)]  // Does not work
     // [TestFixture]
+#endif
     public class Dummy
     {
+#if opt2
         // [Test]
+#endif
         public void TestDummy()
         { }
     }
 
+    public class Dummy2
+    {
+
+        [Test]
+
+        public void TestDummy()
+        {
+            TestContext.Out.WriteLine($"TestDummy:  {TestContext.CurrentContext.WorkerId}");
+        }
+    }
 
 
-    // [Parallelizable(ParallelScope.Fixtures)]  // Does not work
+#if opt3
+    [Parallelizable(ParallelScope.Fixtures)]  // Does not work
+#endif
     [TestFixture("Hey")]
     [TestFixture("Hello")]
     public class SomeFixture(string s)
@@ -43,23 +65,29 @@ namespace Some
 
 namespace Another
 {
-
+#if opt1
     [SetUpFixture, Parallelizable(ParallelScope.Fixtures)]  // Works
+#endif
     internal class Setup
     { }
 
-    // [Parallelizable(ParallelScope.Fixtures)]  // Does not work
-    // [TestFixture]
+#if opt2
+     [Parallelizable(ParallelScope.Fixtures)]  // Does not work
+     [TestFixture]
+#endif
     public class Dummy
     {
-        // [Test]
+#if opt2
+        [Test]
+#endif
         public void TestDummy()
         { }
     }
 
 
-
-    //  [Parallelizable(ParallelScope.Fixtures)]  // Does not work
+#if opt3
+    [Parallelizable(ParallelScope.Fixtures)]  // Does not work
+#endif
     [TestFixture("Hey")]
     [TestFixture("Hello")]
     public class AnotherFixture(string s)

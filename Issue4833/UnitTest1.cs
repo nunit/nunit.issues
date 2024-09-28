@@ -2,7 +2,7 @@
 
 using System.Threading;
 
-[assembly: Parallelizable(ParallelScope.None)]
+[assembly: Parallelizable(ParallelScope.Fixtures)]
 
 
 namespace Issue4833;

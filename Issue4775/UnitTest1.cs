@@ -26,6 +26,22 @@ public class Tests
         CollectionAssert.AreEqual(a, b);
     }
 
+
+    [Test]
+    public void TestB()
+    {
+        var a = new[,] { { 0, 1, 2 }, { 0, 0, 0 }, { 1, 1, 0 } };
+        var b = new[,] { { 0, 1, 2 }, { 0, 0, 0 }, { 1, 1, 0 } };
+
+        // OK
+        Assert.That(a, Is.EqualTo(b));
+        ClassicAssert.AreEqual(a, b);
+
+        // Throws
+        Assert.That(a, Is.EqualTo(b).AsCollection);
+        CollectionAssert.AreEqual(a, b);
+    }
+
     private static IEnumerable<int[,]> ColumnIterator()
     {
         yield return new[,] { { 0, 1, 2 }, { 0, 0, 0 }, { 1, 1, 0 } };

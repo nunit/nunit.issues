@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Primitives;
+﻿using checkredisnull.Microsoft.Extensions.Primitives;
+
+
 using StackExchange.Redis;
 
 namespace NUnitIssue4898;
@@ -20,10 +21,7 @@ public class Tests
     [Test]
     public void TestStringValues()
     {
-        var context = new DefaultHttpContext();
-        var response = context.Response;
-        response.Headers["X-Test"] = "test";
-        StringValues headerInfo = response.Headers["X-Test"];
+        StringValues headerInfo = new StringValues("X-Test");  
         Assert.That(headerInfo, Is.EqualTo("test"));
 
     }

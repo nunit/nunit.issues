@@ -67,5 +67,48 @@ public class RedisValueTests
         // Act & Assert
         Assert.That(nullableValue, Is.Null, "Nullable RedisValue should support explicit null assignment.");
     }
+
+}
+
+public struct MyStruct
+{
+    public int Value;
+
+}
+
+[TestFixture]
+public class MyStructTests
+{
+    [Test]
+    public void MyStruct_Equals_ShouldReturnTrue_WhenValuesAreEqual()
+    {
+        // Arrange
+        var struct1 = new MyStruct { Value = 0 };
+        var struct2 = new MyStruct { Value = 0 };
+
+        // Act & Assert
+        Assert.That(struct1, Is.EqualTo(struct2), "MyStruct.Equals should return true for equal values.");
+    }
+
+    [Test]
+    public void MyStruct_Equals_ShouldReturnFalse_WhenValuesAreNotEqual()
+    {
+        // Arrange
+        var struct1 = new MyStruct { Value = 0 };
+        var struct2 = new MyStruct { Value = 10 };
+
+        // Act & Assert
+        Assert.That(struct1,Is.Not.EqualTo(struct2), "MyStruct.Equals should return false for unequal values.");
+    }
+
+    [Test]
+    public void MyStruct_Equals_ShouldReturnFalse_WhenComparedToDifferentType()
+    {
+        // Arrange
+        var struct1 = new MyStruct { Value = 0 };
+
+        // Act & Assert
+        Assert.That(struct1, Is.Not.EqualTo("string"), "MyStruct.Equals should return false when compared to a different type.");
+    }
 }
 

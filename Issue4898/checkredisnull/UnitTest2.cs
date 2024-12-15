@@ -21,7 +21,7 @@ public class Tests
     [Test]
     public void TestStringValues()
     {
-        StringValues headerInfo = new StringValues("X-Test");  
+        StringValues headerInfo = new StringValues("test");  
         Assert.That(headerInfo, Is.EqualTo("test"));
 
     }

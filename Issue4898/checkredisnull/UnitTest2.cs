@@ -4,6 +4,9 @@ using StackExchange.Redis;
 
 namespace NUnitIssue4898;
 
+/// <summary>
+/// Code from @moshekar
+/// </summary>
 public class Tests
 {
     [Test]

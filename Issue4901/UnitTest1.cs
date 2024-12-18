@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using NUnit.Framework.Diagnostics;
+using System.Diagnostics;
 
 namespace Issue4901;
 
@@ -42,6 +43,8 @@ public class ASetupFixture
     [OneTimeSetUp]
     public void OneTimeSetUp()
     {
+        if (!Trace.Listeners.OfType<ProgressTraceListener>().Any())
+            Trace.Listeners.Add(new ProgressTraceListener());
         Console.WriteLine("SetUpFixture.OneTimeSetUp by Console.WriteLine");
         Trace.WriteLine("SetUpFixture.OneTimeSetUp by Trace.WriteLine");
         TestContext.Out.WriteLine("SetUpFixture.OneTimeSetUp by TestContext.Out.WriteLine");

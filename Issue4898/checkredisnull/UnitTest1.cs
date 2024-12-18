@@ -1,8 +1,7 @@
-﻿
-namespace checkredisnull;
-
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using StackExchange.Redis;
+
+namespace checkredisnull;
 
 [TestFixture]
 public class RedisValueTests

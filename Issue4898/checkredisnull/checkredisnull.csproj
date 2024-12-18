@@ -14,7 +14,9 @@
     <!--<PackageReference Include="NUnit" Version="4.3.0" />-->
     <PackageReference Include="NUnit.Analyzers" Version="4.3.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="8.0.0" />
     <PackageReference Include="StackExchange.Redis" Version="2.8.22" />
+    <PackageReference Include="MongoDB.Bson" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>

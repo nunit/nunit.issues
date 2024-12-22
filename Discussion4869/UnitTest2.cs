@@ -12,6 +12,14 @@ public class StepAttribute(int order) : TestAttribute
     }
 }
 
+public class IntegrationTestAttribute: TestFixtureAttribute
+{
+
+}
+
+
+
+[IntegrationTestAttribute]
 public class MyIntegrationTest2
 {
     int i = 0;

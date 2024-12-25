@@ -22,6 +22,15 @@ public class Tests
         Assert.That(() => throw new Exception("Ugh"), Throws.Exception);
     }
 
+    // Workaround
+
+    [Test]
+    public async Task TestW1()
+    {
+        await Assert.ThatAsync(async () => throw new Exception("Ugh"), Throws.TypeOf<Exception>());
+    }
+
+
     // Added these from the documentation
 
     [Test]

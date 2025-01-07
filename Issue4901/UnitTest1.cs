@@ -1,5 +1,8 @@
-﻿using NUnit.Framework.Diagnostics;
+﻿using Newtonsoft.Json.Serialization;
+using NUnit.Framework.Diagnostics;
 using System.Diagnostics;
+using System.IO;
+using System.Text;
 
 namespace Issue4901;
 
@@ -43,6 +46,7 @@ public class ASetupFixture
     [OneTimeSetUp]
     public void OneTimeSetUp()
     {
+        Console.SetOut(new TraceWriter());
         if (!Trace.Listeners.OfType<ProgressTraceListener>().Any())
             Trace.Listeners.Add(new ProgressTraceListener());
         Console.WriteLine("SetUpFixture.OneTimeSetUp by Console.WriteLine");
@@ -51,4 +55,25 @@ public class ASetupFixture
         TestContext.Progress.WriteLine("SetUpFixture.OneTimeSetUp by TestContext.Progress.WriteLine");
         TestContext.Error.WriteLine("SetUpFixture.OneTimeSetUp by TestContext.Error.WriteLine");
     }
+}
+
+
+public class TraceWriter : TextWriter
+{
+    public override void Write(char value)
+    {
+        Trace.Write(value);
+    }
+
+    public override void Write(string value)
+    {
+        Trace.Write(value);
+    }
+
+    public override void WriteLine(string value)
+    {
+        Trace.WriteLine(value);
+    }
+
+    public override Encoding Encoding => Encoding.UTF8;
 }

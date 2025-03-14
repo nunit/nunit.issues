@@ -11,7 +11,7 @@ public class Tests
         var comparer = new ObjectComparer();
         Assert.Multiple(() =>
         {
-            //Assert.That(2 + 3, Is.Not.EqualTo(4).Using(comparer));
+            Assert.That(2 + 3, Is.Not.EqualTo(4).Using(comparer));
             Assert.That(comparer.WasCalled, "Comparer was not called");
         });
     }

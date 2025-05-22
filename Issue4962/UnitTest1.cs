@@ -19,10 +19,10 @@ public class Tests
             await Task.Delay(15000, cancellationToken);
         }
         catch (Exception)
-        {}
+        { }
         finally
-        {}
-        Console.WriteLine($"after {sw.Elapsed}");
+        { }
+        Console.Write($"after {sw.Elapsed}");
         Assert.That(cancellationToken.IsCancellationRequested, Is.True);
     }
 }

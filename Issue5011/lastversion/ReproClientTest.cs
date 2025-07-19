@@ -5,6 +5,10 @@ using Fhi.ClientCredentialsKeypairs;
 
 namespace lastversion
 {
+    /// <summary>
+    /// These tests reproduces the actual error.
+    /// Note that 
+    /// </summary>
     public class ReproClientTest
     {
         [Test]

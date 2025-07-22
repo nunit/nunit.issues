@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using System.Reflection;
 
-namespace LastVersion.Tests
+namespace currentversion
 {
     /// <summary>
     /// Abstract base class demonstrating all NUnit constraints from the reference documentation.
     /// Each test method validates one specific constraint to ensure it works as expected.
     /// All tests are designed to pass, providing a comprehensive example of constraint usage.
     /// </summary>
-    public class NUnitConstraintsTestBase
+    public class NUnitConstraintsTestBaseInCurrentVersion
     {
 
         // Compile-time version information
@@ -62,7 +56,7 @@ namespace LastVersion.Tests
         public void Test_Show_Actual_Compile_Time_Version()
         {
             // This shows what version this assembly was ACTUALLY compiled against
-            var thisAssembly = typeof(NUnitConstraintsTestBase).Assembly;
+            var thisAssembly = typeof(NUnitConstraintsTestBaseInCurrentVersion).Assembly;
             var nunitRef = thisAssembly.GetReferencedAssemblies()
                 .FirstOrDefault(a => a.Name?.Equals("nunit.framework", StringComparison.OrdinalIgnoreCase) == true);
 

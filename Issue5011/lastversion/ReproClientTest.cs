@@ -19,19 +19,23 @@ namespace lastversion
 
             };
             string clientProductionId = "whatever";
+#pragma warning disable NUnit2021
             Assert.That(clientProductionId, Is.Not.EqualTo(clientConfig));
+#pragma warning restore NUnit2021
 
         }
 
         [Test]
-        public void TestCLientIdAsList()
+        public void TestClientIdAsList()
         {
             var clientConfigList = new List<ClientCredentialsConfiguration?>
             {
                 new ClientCredentialsConfiguration()
             };
             string clientProductionId = "whatever";
+#pragma warning disable NUnit2021
             Assert.That(clientProductionId, Is.Not.EqualTo(clientConfigList.First()));
+#pragma warning restore NUnit2021
 
         }
     }

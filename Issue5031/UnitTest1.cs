@@ -15,4 +15,15 @@ public class Tests
         File.AppendAllText(@"..\..\..\log.log", msg + "\n");
         Console.WriteLine(msg);
     }
+
+    private int count = 0;
+    [Test]
+    [Repeat(5, StopOnFailure = false)]
+    public void Test2()
+    {
+
+        TestContext.Out.WriteLine(count);
+        count++;
+        Assert.That(count, Is.Not.EqualTo(3).And.Not.EqualTo(4));
+    }
 }

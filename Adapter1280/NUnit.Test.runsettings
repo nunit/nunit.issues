@@ -12,6 +12,7 @@
 
   <NUnit>
       <PreFilter>true</PreFilter>
+      <Debug>true</Debug>
   </NUnit>
 
 </RunSettings>

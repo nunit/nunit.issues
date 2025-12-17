@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
+      <NoWarn>NUnit1001</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

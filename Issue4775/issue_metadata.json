@@ -1,0 +1,31 @@
+[
+  {
+    "number": 4775,
+    "title": "Regression Bug: Multidimensional arrays not handled as of NUnit 3.13.0",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [
+      "is:question",
+      "closed:sep"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4775",
+    "project_path": "Issue4775.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.10.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.1.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.6.0"
+      }
+    ]
+  }
+]

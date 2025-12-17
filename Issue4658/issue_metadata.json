@@ -1,0 +1,30 @@
+[
+  {
+    "number": 4658,
+    "title": "Apartment attribute ignored when .runsettings contains DefaultTimeout",
+    "state": "open",
+    "milestone": "No milestone",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4658",
+    "project_path": "ApartmentTest.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.9.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.1.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      }
+    ]
+  }
+]

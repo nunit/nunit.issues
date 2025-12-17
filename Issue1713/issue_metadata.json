@@ -1,0 +1,39 @@
+[
+  {
+    "number": 1713,
+    "title": "SetupFixture methods are executed even if no tests from their namespace are selected to run",
+    "state": "open",
+    "milestone": "No milestone",
+    "labels": [
+      "is:bug",
+      "pri:low"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/1713",
+    "project_path": "Issue1713.csproj",
+    "target_frameworks": [
+      "net6.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.8.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.2.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.9.0"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

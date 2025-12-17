@@ -1,0 +1,54 @@
+[
+  {
+    "number": 4696,
+    "title": "Possibilities to estimate the total test duration before starting the first test?",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [],
+    "url": "https://github.com/nunit/nunit/issues/4696",
+    "project_path": "TestMain\\TestMain.csproj",
+    "target_frameworks": [],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      },
+      {
+        "name": "NUnitLite",
+        "version": "3.14.0"
+      }
+    ]
+  },
+  {
+    "number": 4696,
+    "title": "Possibilities to estimate the total test duration before starting the first test?",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [],
+    "url": "https://github.com/nunit/nunit/issues/4696",
+    "project_path": "TestProject1\\TestProject1.csproj",
+    "target_frameworks": [],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      }
+    ]
+  },
+  {
+    "number": 4696,
+    "title": "Possibilities to estimate the total test duration before starting the first test?",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [],
+    "url": "https://github.com/nunit/nunit/issues/4696",
+    "project_path": "TestProject2\\TestProject2.csproj",
+    "target_frameworks": [],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      }
+    ]
+  }
+]

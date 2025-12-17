@@ -1,0 +1,34 @@
+[
+  {
+    "number": 4635,
+    "title": "CollectionAssert (mis)handling of IList implementation",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [
+      "closed:fixedin_newer_version"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4635",
+    "project_path": "Issue4635.csproj",
+    "target_frameworks": [
+      "net48"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.9.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.6.1"
+      }
+    ]
+  }
+]

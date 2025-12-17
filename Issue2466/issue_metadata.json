@@ -1,0 +1,39 @@
+[
+  {
+    "number": 2466,
+    "title": "Missing stack trace when exception occurs during OneTimeSetUp",
+    "state": "closed",
+    "milestone": "3.14",
+    "labels": [
+      "is:bug",
+      "closed:done"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/2466",
+    "project_path": "NUnitIssue2466.csproj",
+    "target_frameworks": [
+      "net6.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.7.2"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.13.3"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.6.1"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

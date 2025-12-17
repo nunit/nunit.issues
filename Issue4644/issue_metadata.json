@@ -1,0 +1,38 @@
+[
+  {
+    "number": 4644,
+    "title": "Nunit 4 VsCode .Net 8",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "is:question"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4644",
+    "project_path": "Issue4644.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.9.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.1.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.0.1"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.1"
+      }
+    ]
+  }
+]

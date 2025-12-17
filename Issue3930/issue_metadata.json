@@ -1,0 +1,39 @@
+[
+  {
+    "number": 3930,
+    "title": "Whole tests sequence is aborted when single test fails because of async bug",
+    "state": "closed",
+    "milestone": "4.5",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/3930",
+    "project_path": "Issue3930.csproj",
+    "target_frameworks": [
+      "net462",
+      "net10.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.4"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "18.0.1"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.4.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.11.2"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.2.0"
+      }
+    ]
+  }
+]

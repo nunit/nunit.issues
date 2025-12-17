@@ -1,0 +1,30 @@
+[
+  {
+    "number": 4887,
+    "title": "FileLoadException for NUnit 4.2.2 when upgrade the System.Buffers to 4.6.0",
+    "state": "closed",
+    "milestone": "4.3",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4887",
+    "project_path": "Issue4887.csproj",
+    "target_frameworks": [
+      "net472"
+    ],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "4.3.2"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.0.0"
+      },
+      {
+        "name": "System.Buffers",
+        "version": "4.6.1"
+      }
+    ]
+  }
+]

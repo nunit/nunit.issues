@@ -1,0 +1,44 @@
+[
+  {
+    "number": 4906,
+    "title": "Test error in TestContextOneTimeTearDownTests.",
+    "state": "closed",
+    "milestone": "4.4",
+    "labels": [
+      "closed:done",
+      "is:testing"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4906",
+    "project_path": "otsu.csproj",
+    "target_frameworks": [
+      "net6.0",
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.2"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.12.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.3.1"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.6.0"
+      },
+      {
+        "name": "NUnitLite",
+        "version": "4.3.1"
+      }
+    ]
+  }
+]

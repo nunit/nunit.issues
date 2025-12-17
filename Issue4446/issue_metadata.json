@@ -1,0 +1,38 @@
+[
+  {
+    "number": 4446,
+    "title": "Why does {c} return the name of the base class, not the derived class?",
+    "state": "open",
+    "milestone": "No milestone",
+    "labels": [
+      "Investigate"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4446",
+    "project_path": "Issue4446.csproj",
+    "target_frameworks": [
+      "net7.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.7.2"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.13.3"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.6.1"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

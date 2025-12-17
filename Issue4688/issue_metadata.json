@@ -1,0 +1,100 @@
+[
+  {
+    "number": 4688,
+    "title": "Difference between net5.0/net6.0 and netframework 4.7.2 in test tear down",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [
+      "closed:notabug",
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4688",
+    "project_path": "GenerichSpecflowUtility\\GenericSpecflowUtility.csproj",
+    "target_frameworks": [
+      "net6.0",
+      "net472"
+    ],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "4.1.0"
+      },
+      {
+        "name": "SpecFlow",
+        "version": "3.9.74"
+      },
+      {
+        "name": "System.Configuration.ConfigurationManager",
+        "version": "7.0.0"
+      }
+    ]
+  },
+  {
+    "number": 4688,
+    "title": "Difference between net5.0/net6.0 and netframework 4.7.2 in test tear down",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [
+      "closed:notabug",
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4688",
+    "project_path": "GlobalBindings\\GlobalBindings.csproj",
+    "target_frameworks": [
+      "net6.0",
+      "net472"
+    ],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "4.1.0"
+      },
+      {
+        "name": "SpecFlow",
+        "version": "3.9.74"
+      },
+      {
+        "name": "System.Configuration.ConfigurationManager",
+        "version": "7.0.0"
+      }
+    ]
+  },
+  {
+    "number": 4688,
+    "title": "Difference between net5.0/net6.0 and netframework 4.7.2 in test tear down",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [
+      "closed:notabug",
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4688",
+    "project_path": "SpecflowTests\\SpecFlowTests.csproj",
+    "target_frameworks": [
+      "net6.0",
+      "net472"
+    ],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "4.1.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.6.0"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.10.0"
+      },
+      {
+        "name": "SpecFlow",
+        "version": "3.9.74"
+      },
+      {
+        "name": "SpecFlow.NUnit",
+        "version": "3.9.74"
+      }
+    ]
+  }
+]

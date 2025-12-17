@@ -1,0 +1,39 @@
+[
+  {
+    "number": 4960,
+    "title": "Inconsistent Message Output, depending on \u0060ResultState\u0060",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "closed:wontfix",
+      "closed:sep"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4960",
+    "project_path": "Issue4960.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.2"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.13.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.3.2"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.4.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.1.0-alpha.5-dbg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "number": 4589,
+    "title": "Exception when using test filters from .runsettings or --filter argument from dotnet test",
+    "state": "closed",
+    "milestone": "4.2",
+    "labels": [
+      "is:bug",
+      "closed:done"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4589",
+    "project_path": "Issue4589.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.10.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "3.17.0"
+      }
+    ]
+  }
+]

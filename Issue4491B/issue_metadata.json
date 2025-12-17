@@ -1,0 +1,39 @@
+[
+  {
+    "number": 4491,
+    "title": "NUnit 4.0 fails when [Repeat] is present and test passes",
+    "state": "closed",
+    "milestone": "4.0",
+    "labels": [
+      "is:bug",
+      "brokenInUpgrade"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4491",
+    "project_path": "Issue4491B.csproj",
+    "target_frameworks": [
+      "net7.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.6.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.13.3"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.2.1"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.6.1"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

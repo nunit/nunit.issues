@@ -1,0 +1,27 @@
+[
+  {
+    "number": 4744,
+    "title": "Introduce HookExtension to support high level tests",
+    "state": "closed",
+    "milestone": "4.5",
+    "labels": [
+      "is:enhancement",
+      "closed:done"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4744",
+    "project_path": "demo.testenv\\demo.testenv.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "4.1.99999"
+      },
+      {
+        "name": "NUnitLite",
+        "version": "4.1.99999"
+      }
+    ]
+  }
+]

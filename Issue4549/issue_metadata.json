@@ -1,0 +1,38 @@
+[
+  {
+    "number": 4549,
+    "title": "Documentation of valid (or invalid) characters for SetCategory() and SetName()",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "is:question"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4549",
+    "project_path": "Issue4549.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.8.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.0.0-beta.1"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.10.0-beta1"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

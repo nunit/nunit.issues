@@ -1,0 +1,64 @@
+[
+  {
+    "number": 5035,
+    "title": "Please provide an official NUnitLogger",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "is:idea",
+      "closed:answered"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5035",
+    "project_path": "testing\\testing.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.4"
+      },
+      {
+        "name": "Microsoft.AspNetCore.Mvc.Testing",
+        "version": "9.0.9"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.14.1"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.4.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.10.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.1.0"
+      }
+    ]
+  },
+  {
+    "number": 5035,
+    "title": "Please provide an official NUnitLogger",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "is:idea",
+      "closed:answered"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5035",
+    "project_path": "webapi\\webapi.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.AspNetCore.OpenApi",
+        "version": "9.0.9"
+      }
+    ]
+  }
+]

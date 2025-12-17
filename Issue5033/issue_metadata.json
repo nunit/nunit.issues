@@ -1,0 +1,39 @@
+[
+  {
+    "number": 5033,
+    "title": "TestContext.CurrentContext.Result.StackTrace returning null when updated to version 4.4.0",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "closed:norepro",
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5033",
+    "project_path": "Issue5033.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.4"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.14.1"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.4.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.10.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.1.0"
+      }
+    ]
+  }
+]

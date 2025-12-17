@@ -1,0 +1,38 @@
+[
+  {
+    "number": 4298,
+    "title": "Results for outer class are not reported in since version 3.13.2",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4298",
+    "project_path": "Issue4298.csproj",
+    "target_frameworks": [
+      "net6.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.3.2"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.12.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.4.2"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.3.0"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "3.1.2"
+      }
+    ]
+  }
+]

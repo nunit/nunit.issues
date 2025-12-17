@@ -1,0 +1,34 @@
+[
+  {
+    "number": 4860,
+    "title": "Console.WriteLine not showing up from AspNetCore http handler",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "Investigate"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4860",
+    "project_path": "dotnet-nunit-asp-console-writeline.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "18.0.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.4.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.2.0"
+      },
+      {
+        "name": "Microsoft.Extensions.Logging",
+        "version": "9.0.10"
+      }
+    ]
+  }
+]

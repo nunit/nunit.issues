@@ -1,0 +1,38 @@
+[
+  {
+    "number": 4907,
+    "title": "Assert.ThatAsync fail to catch expected exception",
+    "state": "closed",
+    "milestone": "4.3.2",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4907",
+    "project_path": "Issue4907.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.2"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.12.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.3.1"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.6.0"
+      }
+    ]
+  }
+]

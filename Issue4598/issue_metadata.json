@@ -1,0 +1,31 @@
+[
+  {
+    "number": 4598,
+    "title": "DefaultTimeout in .runsettings \u002B TearDown method seems to break test output",
+    "state": "closed",
+    "milestone": "4.2",
+    "labels": [
+      "is:bug",
+      "closed:done"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4598",
+    "project_path": "NUnitIssue\\NUnitIssue.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.8.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.0.1"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      }
+    ]
+  }
+]

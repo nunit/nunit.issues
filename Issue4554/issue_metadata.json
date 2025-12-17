@@ -1,0 +1,40 @@
+[
+  {
+    "number": 4554,
+    "title": "Inherited SetUpFixture has stopped working going from NUnit 3.13.3 to 3.14.0/4.0.0-beta.1",
+    "state": "closed",
+    "milestone": "4.0",
+    "labels": [
+      "is:bug",
+      "closed:done",
+      "requires:backport"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4554",
+    "project_path": "Issue4554.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.8.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.9.0"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

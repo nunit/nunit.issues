@@ -1,0 +1,30 @@
+[
+  {
+    "number": 2851,
+    "title": "Tests are green with exceptions thrown in async void inner method (test itself is async Task)",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [],
+    "url": "https://github.com/nunit/nunit/issues/2851",
+    "project_path": "Issue2851.csproj",
+    "target_frameworks": [
+      "net6.0",
+      "net462",
+      "net472"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.3.2"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.13.3"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.4.2"
+      }
+    ]
+  }
+]

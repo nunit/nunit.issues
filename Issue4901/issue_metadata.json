@@ -1,0 +1,38 @@
+[
+  {
+    "number": 4901,
+    "title": "Logging from \u0060[SetUpFixture]\u0060-annotated class is MIA when running w/ \u0060dotnet test\u0060",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "is:question"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4901",
+    "project_path": "Issue4901.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.2"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.12.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.3.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.4.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.6.0"
+      }
+    ]
+  }
+]

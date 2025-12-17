@@ -1,0 +1,42 @@
+[
+  {
+    "number": 4371,
+    "title": "Timeout does not properly abort unit test and run longer than the threshold",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4371",
+    "project_path": "timeoutissuetest\\timeoutissuetest.csproj",
+    "target_frameworks": [
+      "net6.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.5.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.13.3"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.4.2"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.3.0"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "3.1.2"
+      },
+      {
+        "name": "System.Data.OracleClient",
+        "version": "1.0.8"
+      }
+    ]
+  }
+]

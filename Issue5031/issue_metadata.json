@@ -1,0 +1,36 @@
+[
+  {
+    "number": 5031,
+    "title": "\u0060Repeat\u0060 attribute only prints output of last repetition after 4.4.0 update",
+    "state": "closed",
+    "milestone": "4.5",
+    "labels": [
+      "is:bug",
+      "closed:done",
+      "brokenInUpgrade"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5031",
+    "project_path": "Issue5031.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.4"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.14.1"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.10.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "5.1.0"
+      }
+    ]
+  }
+]

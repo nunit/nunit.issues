@@ -1,0 +1,35 @@
+[
+  {
+    "number": 4426,
+    "title": "Testfixture is silently ignored if exception in constructor and DatapointSource",
+    "state": "open",
+    "milestone": "No milestone",
+    "labels": [
+      "is:bug",
+      "Investigate"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4426",
+    "project_path": "TestProject1\\TestProject1.csproj",
+    "target_frameworks": [
+      "net7.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.5.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "3.13.3"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.4.2"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.6.1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "number": 4619,
+    "title": "TimeoutAttribute causes context in TearDown to have incorrect info.",
+    "state": "closed",
+    "milestone": "Closed Without Action",
+    "labels": [
+      "closed:wontfix"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/4619",
+    "project_path": "Issue4619.csproj",
+    "target_frameworks": [
+      "net48"
+    ],
+    "packages": [
+      {
+        "name": "NUnit",
+        "version": "3.14.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.9.0"
+      }
+    ]
+  }
+]

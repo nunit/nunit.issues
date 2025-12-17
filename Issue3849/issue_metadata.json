@@ -1,0 +1,38 @@
+[
+  {
+    "number": 3849,
+    "title": "Assert.Catch inside Assert.Multiple gives unclear failure message",
+    "state": "open",
+    "milestone": "No milestone",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/3849",
+    "project_path": "Issue3849.csproj",
+    "target_frameworks": [
+      "net8.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "17.8.0"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.0.1"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "3.10.0"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "6.0.0"
+      }
+    ]
+  }
+]

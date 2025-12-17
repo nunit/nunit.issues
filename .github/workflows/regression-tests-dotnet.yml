@@ -61,7 +61,7 @@ jobs:
       - name: Publish summary
         if: always()
         run: |
-          cat RegrTesting/TestReport.md >> "$GITHUB_STEP_SUMMARY"
+          cat TestReport.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifacts
         if: always()
@@ -69,8 +69,8 @@ jobs:
         with:
           name: dotnet-regression-results
           path: |
-            RegrTesting/results.json
-            RegrTesting/TestReport.md
+            results.json
+            TestReport.md
             RegrTesting/TestResults-consolelog.md
           if-no-files-found: warn
 

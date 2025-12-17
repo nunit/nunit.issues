@@ -53,7 +53,7 @@ jobs:
         shell: pwsh
         run: |
           cd RegrTesting\Tools\IssueRunner\bin\Release\net10.0
-          .\IssueRunner.exe run --scope OpenOnly --only-netfx --timeout 900 --nunit-only --root $env:GITHUB_WORKSPACE
+          .\IssueRunner.exe run --scope OpenOnly --only-netfx --timeout 900 --nunit-only --root $env:GITHUB_WORKSPACE | Tee-Object -FilePath $env:GITHUB_WORKSPACE\RegrTesting\TestResults-consolelog.md
 
       - name: Generate test report
         if: always()
@@ -66,7 +66,7 @@ jobs:
         if: always()
         shell: pwsh
         run: |
-          Get-Content RegrTesting\TestReport.md | Out-File -Append -FilePath $env:GITHUB_STEP_SUMMARY
+          Get-Content TestReport.md | Out-File -Append -FilePath $env:GITHUB_STEP_SUMMARY
 
       - name: Upload artifacts
         if: always()
@@ -74,7 +74,7 @@ jobs:
         with:
           name: netfx-open-results
           path: |
-            RegrTesting/results.json
+            results.json
             RegrTesting/TestResults-consolelog.md
-            RegrTesting/TestReport.md
+            TestReport.md
           if-no-files-found: error

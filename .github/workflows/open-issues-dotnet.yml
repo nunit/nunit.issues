@@ -52,7 +52,7 @@ jobs:
         continue-on-error: true
         run: |
           cd RegrTesting/Tools/IssueRunner/bin/Release/net10.0
-          ./IssueRunner run --scope OpenOnly --skip-netfx --timeout 900 --nunit-only --root $GITHUB_WORKSPACE
+          ./IssueRunner run --scope OpenOnly --skip-netfx --timeout 900 --nunit-only --root $GITHUB_WORKSPACE | tee $GITHUB_WORKSPACE/RegrTesting/TestResults-consolelog.md
 
       - name: Generate test report
         if: always()
@@ -63,7 +63,7 @@ jobs:
       - name: Publish summary
         if: always()
         run: |
-          cat RegrTesting/TestReport.md >> "$GITHUB_STEP_SUMMARY"
+          cat TestReport.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifacts
         if: always()
@@ -71,7 +71,7 @@ jobs:
         with:
           name: dotnet-open-results
           path: |
-            RegrTesting/results.json
+            results.json
             RegrTesting/TestResults-consolelog.md
-            RegrTesting/TestReport.md
+            TestReport.md
           if-no-files-found: error

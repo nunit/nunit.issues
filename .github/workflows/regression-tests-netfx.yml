@@ -64,7 +64,7 @@ jobs:
         if: always()
         shell: pwsh
         run: |
-          Get-Content RegrTesting\TestReport.md | Out-File -Append -FilePath $env:GITHUB_STEP_SUMMARY
+          Get-Content TestReport.md | Out-File -Append -FilePath $env:GITHUB_STEP_SUMMARY
 
       - name: Upload artifacts
         if: always()
@@ -72,8 +72,8 @@ jobs:
         with:
           name: netfx-regression-results
           path: |
-            RegrTesting/results.json
-            RegrTesting/TestReport.md
+            results.json
+            TestReport.md
             RegrTesting/TestResults-consolelog.md
           if-no-files-found: warn
 

@@ -98,7 +98,7 @@ internal class ItemTestCaseData : ITestCaseData
 {
     public ItemTestCaseData(ItemBuilder itemBuilder)
     {
-        Arguments = new object[] { itemBuilder.Item };
+        Arguments = [itemBuilder.Item];
         ExpectedResult = itemBuilder.ExpectedQuality;
         TestName = $"{itemBuilder.Item.Name} with quality {itemBuilder.Item.Quality} to be sold in {itemBuilder.Item.SellIn} days should have quality of {itemBuilder.ExpectedQuality} tomorrow";
     }

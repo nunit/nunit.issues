@@ -16,10 +16,11 @@ public class Tests
 
     public void SomeOtherMethod()
     {
-        throw new Exception("SomeOtherMethod");
+        throw new SpecialException("SomeOtherMethod");
     }
 }
 
+public class SpecialException(string someothermethod) : Exception(someothermethod);
 
 public class SqrtTests
 {

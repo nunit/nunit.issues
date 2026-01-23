@@ -816,5 +816,15 @@
       "closed:answered"
     ],
     "url": "https://github.com/nunit/nunit/issues/5035"
+  },
+  {
+    "number": 5096,
+    "title": "Unclear error if MTP times out in a setup fixture",
+    "state": "closed",
+    "milestone": "4.5",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5096"
   }
 ]

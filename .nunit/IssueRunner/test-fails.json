@@ -1,0 +1,250 @@
+{
+  "test_results": [
+    {
+      "issue": "Issue1056",
+      "project": "Issue1056.csproj",
+      "last_run": "2026-01-15T20:41:29Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue1713",
+      "project": "Issue1713.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue2851",
+      "project": "Issue2851.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue3125",
+      "project": "Issue3125.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue3807",
+      "project": "Issue3807.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue3849",
+      "project": "Issue3849.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue3930",
+      "project": "Issue3930.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4281",
+      "project": "Issue4281.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4353",
+      "project": "Issue4353.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4371",
+      "project": "timeoutissuetest\\timeoutissuetest.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4400",
+      "project": "Issue4400.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4401",
+      "project": "Issue4401.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4406",
+      "project": "Issue4406.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4413",
+      "project": "Issue4413.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4423",
+      "project": "Issue4423.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4426",
+      "project": "TestProject1\\TestProject1.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4491",
+      "project": "Issue4491B.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4537",
+      "project": "Issue4537.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4545",
+      "project": "Issue4545.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4572",
+      "project": "Issue4572.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue4588",
+      "project": "ValueTask.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue4598",
+      "project": "NUnitIssue\\NUnitIssue.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4635",
+      "project": "Issue4635.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue4651",
+      "project": "Issue4651.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4662",
+      "project": "Issue4662.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4670",
+      "project": "Issue4670.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4681",
+      "project": "Issue4681.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4696",
+      "project": "TestMain\\TestMain.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue4721",
+      "project": "Issue4721.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4744",
+      "project": "demo.testenv\\demo.testenv.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue4775",
+      "project": "Issue4775.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4860",
+      "project": "dotnet-nunit-asp-console-writeline.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4887",
+      "project": "Issue4887.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4898",
+      "project": "checkredisnull\\checkredisnull.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue4900",
+      "project": "CancellationTokenFromTestCaseSource.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4906",
+      "project": "otsu.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue4960",
+      "project": "Issue4960.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue5011",
+      "project": "currentversion\\currentversion.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue5031",
+      "project": "Issue5031.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    },
+    {
+      "issue": "Issue5033",
+      "project": "Issue5033.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "fail"
+    },
+    {
+      "issue": "Issue5096",
+      "project": "Issue5096.csproj",
+      "last_run": "2026-01-16T09:45:59Z",
+      "test_result": "not run"
+    }
+  ]
+}

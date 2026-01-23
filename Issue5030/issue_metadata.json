@@ -10,36 +10,6 @@
       "closed:noresponsefromreporter"
     ],
     "url": "https://github.com/nunit/nunit/issues/5030",
-    "project_path": "MyTestWebApi\\MyTestWebApi.csproj",
-    "target_frameworks": [
-      "net9.0"
-    ],
-    "packages": [
-      {
-        "name": "Swashbuckle.AspNetCore",
-        "version": "6.6.2"
-      },
-      {
-        "name": "Microsoft.Extensions.Logging.Console",
-        "version": "8.0.0"
-      },
-      {
-        "name": "Microsoft.AspNetCore.OpenApi",
-        "version": "8.0.0"
-      }
-    ]
-  },
-  {
-    "number": 5030,
-    "title": "ILogger logs are outputing 1 character per line during tests execution",
-    "state": "closed",
-    "milestone": "No milestone",
-    "labels": [
-      "closed:norepro",
-      "awaiting:contributor",
-      "closed:noresponsefromreporter"
-    ],
-    "url": "https://github.com/nunit/nunit/issues/5030",
     "project_path": "MyTestWebApi.Tests\\MyTestWebApi.Tests.csproj",
     "target_frameworks": [
       "net9.0"
@@ -72,6 +42,36 @@
       {
         "name": "TeamCity.VSTest.TestAdapter",
         "version": "1.0.41"
+      }
+    ]
+  },
+  {
+    "number": 5030,
+    "title": "ILogger logs are outputing 1 character per line during tests execution",
+    "state": "closed",
+    "milestone": "No milestone",
+    "labels": [
+      "closed:norepro",
+      "awaiting:contributor",
+      "closed:noresponsefromreporter"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5030",
+    "project_path": "MyTestWebApi\\MyTestWebApi.csproj",
+    "target_frameworks": [
+      "net9.0"
+    ],
+    "packages": [
+      {
+        "name": "Swashbuckle.AspNetCore",
+        "version": "6.6.2"
+      },
+      {
+        "name": "Microsoft.Extensions.Logging.Console",
+        "version": "8.0.0"
+      },
+      {
+        "name": "Microsoft.AspNetCore.OpenApi",
+        "version": "8.0.0"
       }
     ]
   }

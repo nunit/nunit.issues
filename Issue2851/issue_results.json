@@ -1,0 +1,37 @@
+[
+  {
+    "number": 2851,
+    "project_path": "Issue2851.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0",
+      "net462",
+      "net472"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit3TestAdapter=6.1.1-alpha.2"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue2851\\Issue2851.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue2851\r\n  [net10.0]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n  [.NETFramework,Version=v4.7.2]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n  [.NETFramework,Version=v4.6.2]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue2851 [net10.0] upgraded successfully\r\nProject Issue2851 [.NETFramework,Version=v4.7.2] upgraded successfully\r\nProject Issue2851 [.NETFramework,Version=v4.6.2] upgraded successfully\r\n\r\nElapsed: 00:00:10.9522216\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue2851\\Issue2851.csproj (in 400 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Failed",
+    "build_output": "C:\\repos\\nunit\\nunit.issues\\Issue2851\\UnitTest1.cs(43,17): error CS8370: Feature \u0027extensions\u0027 is not available in C# 7.3. Please use language version 14.0 or greater. [C:\\repos\\nunit\\nunit.issues\\Issue2851\\Issue2851.csproj::TargetFramework=net472]\r\n  Issue2851 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue2851\\bin\\Debug\\net10.0\\Issue2851.dll\r\n  Issue2851 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue2851\\bin\\Debug\\net462\\Issue2851.dll\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue2851\\UnitTest1.cs(43,17): error CS8370: Feature \u0027extensions\u0027 is not available in C# 7.3. Please use language version 14.0 or greater. [C:\\repos\\nunit\\nunit.issues\\Issue2851\\Issue2851.csproj::TargetFramework=net472]\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:01.71\r\n",
+    "build_error": "",
+    "test_result": "NotRun",
+    "test_output": "=== Issue2851\\Issue2851.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue2851\\Issue2851.csproj (in 400 ms).\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue2851\\UnitTest1.cs(43,17): error CS8370: Feature \u0027extensions\u0027 is not available in C# 7.3. Please use language version 14.0 or greater. [C:\\repos\\nunit\\nunit.issues\\Issue2851\\Issue2851.csproj::TargetFramework=net472]\r\n  Issue2851 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue2851\\bin\\Debug\\net10.0\\Issue2851.dll\r\n  Issue2851 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue2851\\bin\\Debug\\net462\\Issue2851.dll\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue2851\\UnitTest1.cs(43,17): error CS8370: Feature \u0027extensions\u0027 is not available in C# 7.3. Please use language version 14.0 or greater. [C:\\repos\\nunit\\nunit.issues\\Issue2851\\Issue2851.csproj::TargetFramework=net472]\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:01.71\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Build failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:34:29Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

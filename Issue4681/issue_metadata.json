@@ -10,25 +10,25 @@
     "url": "https://github.com/nunit/nunit/issues/4681",
     "project_path": "Issue4681.csproj",
     "target_frameworks": [
-      "net8.0",
+      "net10.0",
       "net48"
     ],
     "packages": [
       {
         "name": "InvertedTomato.Crc",
-        "version": "1.3.6"
+        "version": "1.4.1"
       },
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.9.0"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
-        "version": "3.14.0"
+        "version": "4.4.0"
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "4.5.0"
+        "version": "6.1.0"
       }
     ]
   }

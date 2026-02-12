@@ -1,0 +1,37 @@
+[
+  {
+    "number": 4572,
+    "project_path": "Issue4572.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.4.0",
+      "NUnit3TestAdapter=6.1.0",
+      "NUnit.Analyzers=3.10.0",
+      "coverlet.collector=6.0.0"
+    ],
+    "update_result": "Failed",
+    "update_output": "[Issue4572\\Issue4572.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\n",
+    "update_error": "[Issue4572\\Issue4572.csproj]\nUnable to process the project \u0060C:\\repos\\nunit\\nunit.issues\\Issue4572\\Issue4572.sln. Are you sure this is a valid .NET Core or .NET Standard project type?\r\n\r\nHere is the full error message returned from the Microsoft Build Engine:\r\n\r\nMSBuild version 18.0.11\u002Bc2435c3e0 for .NET\r\nC:\\Program Files\\dotnet\\sdk\\10.0.103\\NuGet.targets(519,5): error MSB3202: The project file \u0022C:\\repos\\nunit\\nunit.issues\\Analyzer665\\IssueAnalyzer665\\IssueAnalyzer665.csproj\u0022 was not found. [C:\\repos\\nunit\\nunit.issues\\Issue4572\\Issue4572.sln]\r\n -  - exit code: 1\r\n",
+    "restore_result": "Failed",
+    "restore_output": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\NuGet.targets(519,5): error MSB3202: The project file \u0022C:\\repos\\nunit\\nunit.issues\\Analyzer665\\IssueAnalyzer665\\IssueAnalyzer665.csproj\u0022 was not found. [C:\\repos\\nunit\\nunit.issues\\Issue4572\\Issue4572.sln]\r\n",
+    "restore_error": "",
+    "build_result": "NotRun",
+    "build_output": "",
+    "build_error": "",
+    "test_result": "NotRun",
+    "test_output": "=== Issue4572\\Issue4572.csproj ===\n=== Restore ===\nC:\\Program Files\\dotnet\\sdk\\10.0.103\\NuGet.targets(519,5): error MSB3202: The project file \u0022C:\\repos\\nunit\\nunit.issues\\Analyzer665\\IssueAnalyzer665\\IssueAnalyzer665.csproj\u0022 was not found. [C:\\repos\\nunit\\nunit.issues\\Issue4572\\Issue4572.sln]\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Restore failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:41:52Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

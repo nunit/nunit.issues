@@ -1,0 +1,37 @@
+[
+  {
+    "number": 4406,
+    "project_path": "Issue4406.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=17.10.0",
+      "NUnit=4.1.0",
+      "NUnit3TestAdapter=4.6.0-beta.8-dbg",
+      "NUnit.Analyzers=4.2.0",
+      "coverlet.collector=3.1.2"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4406\\Issue4406.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue4406\r\n  [net10.0]\r\n  coverlet.collector      3.1.2   -\u003E 6.0.4           \r\n  Microsoft.NET.Test.Sdk  17.10.0 -\u003E 18.0.1          \r\n  NUnit                   4.1.0   -\u003E 4.5.0-alpha.0.36\r\n  NUnit.Analyzers         4.2.0   -\u003E 4.11.2          \r\n  NUnit3TestAdapter       4.6.0   -\u003E 6.1.1-alpha.48  \r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package coverlet.collector...\r\nProject Issue4406 [net10.0] upgraded successfully\r\n\r\nUpgrading package Microsoft.NET.Test.Sdk...\r\nProject Issue4406 [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit...\r\nProject Issue4406 [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit.Analyzers...\r\nProject Issue4406 [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit3TestAdapter...\r\nProject Issue4406 [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:15.5252501\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4406\\Issue4406.csproj (in 344 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  Issue4406 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4406\\bin\\Debug\\net10.0\\Issue4406.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.54\r\n",
+    "build_error": "",
+    "test_result": "Failed",
+    "test_output": "=== Issue4406\\Issue4406.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4406\\Issue4406.csproj (in 344 ms).\r\n\n=== Build ===\n  Issue4406 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4406\\bin\\Debug\\net10.0\\Issue4406.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.54\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4406\\bin\\Debug\\net10.0\\Issue4406.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\nDisableParallelization:True \u0026 NumberOfTestWorkers:1 are conflicting settings, hence not running in parallel\r\n  Failed SingleTest [83 ms]\r\n  Error Message:\r\n     Assert.That(x, Is.EqualTo(2))\r\n  Expected: 2\r\n  But was:  42\r\n\r\n  Stack Trace:\r\n     at Issue4406.Tests.SingleTest() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 14\r\n\r\n1)    at Issue4406.Tests.SingleTest() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 14\r\n\r\n\r\n  Standard Output Messages:\r\n seed: 217891706\r\n\r\n  Failed Test1 [10 ms]\r\n  Error Message:\r\n   Multiple failures or warnings in test:\r\n  1)   Assert.That(x, Is.EqualTo(2))\r\n  Expected: 2\r\n  But was:  42\r\n\r\n     at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 26\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n  2)   Assert.That(x, Is.EqualTo(3))\r\n  Expected: 3\r\n  But was:  42\r\n\r\n     at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 27\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n  3)   Assert.That(x, Is.EqualTo(4))\r\n  Expected: 4\r\n  But was:  42\r\n\r\n     at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 29\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n  4)   Assert.That(y, Is.EqualTo(55))\r\n  Expected: 55\r\n  But was:  5\r\n\r\n     at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 30\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n\r\n  Stack Trace:\r\n     at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n1)    at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 26\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n2)    at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 27\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n3)    at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 29\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n4)    at Issue4406.Tests.\u003C\u003Ec__DisplayClass2_0.\u003CTest1\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 30\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4406.Tests.Test1() in C:\\repos\\nunit\\nunit.issues\\Issue4406\\UnitTest1.cs:line 24\r\n\r\n\r\n  Standard Output Messages:\r\n seed: 501001636\r\n\r\n\r\nFailed!  - Failed:     2, Passed:     0, Skipped:     0, Total:     2, Duration: 96 ms - Issue4406.dll (net10.0)\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Test assertions failed (0 passed, 2 failed)",
+    "runner_scripts": null,
+    "runsettings": "C:/repos/nunit/nunit.issues\\Issue4406\\.runsettings",
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:39:17Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

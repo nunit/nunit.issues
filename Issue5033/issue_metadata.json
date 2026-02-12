@@ -11,7 +11,7 @@
     "url": "https://github.com/nunit/nunit/issues/5033",
     "project_path": "Issue5033.csproj",
     "target_frameworks": [
-      "net9.0"
+      "net10.0"
     ],
     "packages": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.14.1"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
@@ -28,11 +28,11 @@
       },
       {
         "name": "NUnit.Analyzers",
-        "version": "4.10.0"
+        "version": "4.11.2"
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "5.1.0"
+        "version": "6.1.0"
       }
     ]
   }

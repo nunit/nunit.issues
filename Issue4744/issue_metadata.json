@@ -11,12 +11,12 @@
     "url": "https://github.com/nunit/nunit/issues/4744",
     "project_path": "demo.testenv\\demo.testenv.csproj",
     "target_frameworks": [
-      "net8.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "NUnit",
-        "version": "4.1.99999"
+        "version": "4.4.0"
       },
       {
         "name": "NUnitLite",

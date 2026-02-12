@@ -11,20 +11,20 @@
     "url": "https://github.com/nunit/nunit/issues/4584",
     "project_path": "Nunit4_TestcaseSelectionIssue\\Nunit4_TestcaseSelectionIssue.csproj",
     "target_frameworks": [
-      "net8.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.10.0"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
-        "version": "3.14.0"
+        "version": "4.4.0"
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "3.17.0"
+        "version": "6.1.0"
       }
     ]
   }

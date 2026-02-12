@@ -1,0 +1,38 @@
+[
+  {
+    "number": 5035,
+    "project_path": "testing\\testing.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "coverlet.collector=6.0.4",
+      "Microsoft.AspNetCore.Mvc.Testing=10.0.2",
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit.Analyzers=4.11.2",
+      "NUnit3TestAdapter=6.1.1-alpha.2"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue5035\\testing\\testing.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB testing\r\n  [net10.0]\r\n  Microsoft.AspNetCore.Mvc.Testing  10.0.2           -\u003E 10.0.3          \r\n  NUnit                             4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\n\u00C2\u00BB webapi\r\n  [net10.0]\r\n  Microsoft.AspNetCore.OpenApi  10.0.2 -\u003E 10.0.3\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package Microsoft.AspNetCore.Mvc.Testing...\r\nProject testing [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit...\r\nProject testing [net10.0] upgraded successfully\r\n\r\nUpgrading package Microsoft.AspNetCore.OpenApi...\r\nProject webapi [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:11.6063008\r\n\n\n[Issue5035\\webapi\\webapi.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\nNo outdated dependencies were detected\r\nElapsed: 00:00:02.7982532\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  webapi -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5035\\webapi\\bin\\Debug\\net10.0\\webapi.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.10\r\n",
+    "build_error": "",
+    "test_result": "Success",
+    "test_output": "=== Issue5035\\testing\\testing.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue5035\\webapi\\webapi.csproj (in 353 ms).\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\testing.csproj (in 375 ms).\r\n\n=== Build ===\n  webapi -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5035\\webapi\\bin\\Debug\\net10.0\\webapi.dll\r\nC:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\UnitTest1.cs(160,28): warning CS8602: Dereference of a possibly null reference. [C:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\testing.csproj]\r\n  testing -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\bin\\Debug\\net10.0\\testing.dll\r\n\r\nBuild succeeded.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\UnitTest1.cs(160,28): warning CS8602: Dereference of a possibly null reference. [C:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\testing.csproj]\r\n    1 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:03.74\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue5035\\testing\\bin\\Debug\\net10.0\\testing.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n\r\nPassed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 304 ms - testing.dll (net10.0)\r\n\n\n=== Issue5035\\webapi\\webapi.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n\n=== Build ===\n  webapi -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5035\\webapi\\bin\\Debug\\net10.0\\webapi.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.10\r\n\n=== Test ===\n",
+    "test_error": "",
+    "test_conclusion": "Success: No regression failure (1 test(s) passed)",
+    "runner_scripts": null,
+    "runsettings": "C:/repos/nunit/nunit.issues\\Issue5035\\.runsettings",
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:54:39Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

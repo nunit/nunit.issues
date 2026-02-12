@@ -1,0 +1,35 @@
+[
+  {
+    "number": 4619,
+    "project_path": "Issue4619.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net48"
+    ],
+    "packages": [
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit3TestAdapter=6.1.1-alpha.2",
+      "Microsoft.NET.Test.Sdk=18.0.1"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4619\\Issue4619.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue4619\r\n  [.NETFramework,Version=v4.8]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue4619 [.NETFramework,Version=v4.8] upgraded successfully\r\n\r\nElapsed: 00:00:05.3697270\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  Issue4619 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4619\\bin\\Debug\\net48\\Issue4619.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.37\r\n",
+    "build_error": "",
+    "test_result": "Success",
+    "test_output": "=== Issue4619\\Issue4619.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n\n=== Build ===\n  Issue4619 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4619\\bin\\Debug\\net48\\Issue4619.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.37\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4619\\bin\\Debug\\net48\\Issue4619.dll (.NETFramework,Version=v4.8)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n\r\nPassed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 16 ms - Issue4619.dll (net48)\r\n",
+    "test_error": "",
+    "test_conclusion": "Success: No regression failure (1 test(s) passed)",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:43:07Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "number": 4545,
+    "project_path": "Issue4545.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit3TestAdapter=6.1.1-alpha.2",
+      "NUnit.Analyzers=4.11.2",
+      "coverlet.collector=6.0.4"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4545\\Issue4545.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue4545\r\n  [net10.0]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue4545 [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:05.2907740\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4545\\Issue4545.csproj (in 348 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  Issue4545 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4545\\bin\\Debug\\net10.0\\Issue4545.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.49\r\n",
+    "build_error": "",
+    "test_result": "Failed",
+    "test_output": "=== Issue4545\\Issue4545.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4545\\Issue4545.csproj (in 348 ms).\r\n\n=== Build ===\n  Issue4545 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4545\\bin\\Debug\\net10.0\\Issue4545.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.49\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4545\\bin\\Debug\\net10.0\\Issue4545.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n  Failed ShouldWriteSameMessage [85 ms]\r\n  Error Message:\r\n   Multiple failures or warnings in test:\r\n  1)   Assert.That(actualValue, new MyConstraint())\r\nCustom message\r\n     at Issue4545.MyTests.\u003C\u003Ec__DisplayClass0_0.\u003CShouldWriteSameMessage\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 14\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4545.MyTests.ShouldWriteSameMessage() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 12\r\n\r\n  2)   Assert.That(actualValue, new MyConstraint().After(20))\r\n  After 20 milliseconds delay\r\nCustom message\r\n     at Issue4545.MyTests.\u003C\u003Ec__DisplayClass0_0.\u003CShouldWriteSameMessage\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 15\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4545.MyTests.ShouldWriteSameMessage() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 12\r\n\r\n\r\n  Stack Trace:\r\n     at Issue4545.MyTests.ShouldWriteSameMessage() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 12\r\n\r\n1)    at Issue4545.MyTests.\u003C\u003Ec__DisplayClass0_0.\u003CShouldWriteSameMessage\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 14\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4545.MyTests.ShouldWriteSameMessage() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 12\r\n\r\n2)    at Issue4545.MyTests.\u003C\u003Ec__DisplayClass0_0.\u003CShouldWriteSameMessage\u003Eb__0() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 15\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at Issue4545.MyTests.ShouldWriteSameMessage() in C:\\repos\\nunit\\nunit.issues\\Issue4545\\UnitTest1.cs:line 12\r\n\r\n\r\n\r\nFailed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 85 ms - Issue4545.dll (net10.0)\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Test assertions failed (0 passed, 1 failed)",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:41:09Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

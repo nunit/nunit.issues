@@ -1,0 +1,37 @@
+[
+  {
+    "number": 4785,
+    "project_path": "take1\\tstests\\tstests.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "coverlet.collector=6.0.2",
+      "Microsoft.NET.Test.Sdk=17.10.0",
+      "NUnit=4.1.0",
+      "NUnit.Analyzers=4.3.0",
+      "NUnit3TestAdapter=4.6.0"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4785\\take1\\tstests\\tstests.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB tstests\r\n  [net10.0]\r\n  coverlet.collector      6.0.2   -\u003E 6.0.4           \r\n  Microsoft.NET.Test.Sdk  17.10.0 -\u003E 18.0.1          \r\n  NUnit                   4.1.0   -\u003E 4.5.0-alpha.0.36\r\n  NUnit.Analyzers         4.3.0   -\u003E 4.11.2          \r\n  NUnit3TestAdapter       4.6.0   -\u003E 6.1.1-alpha.2   \r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package coverlet.collector...\r\nProject tstests [net10.0] upgraded successfully\r\n\r\nUpgrading package Microsoft.NET.Test.Sdk...\r\nProject tstests [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit...\r\nProject tstests [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit.Analyzers...\r\nProject tstests [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit3TestAdapter...\r\nProject tstests [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:15.2233110\r\n\n\n[Issue4785\\take1\\tdlib\\tdlib.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\nNo outdated dependencies were detected\r\nElapsed: 00:00:01.5508322\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  tdlib -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\bin\\Debug\\net10.0\\tdlib.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:00.74\r\n",
+    "build_error": "",
+    "test_result": "Success",
+    "test_output": "=== Issue4785\\take1\\tstests\\tstests.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\tdlib.csproj (in 149 ms).\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tstests\\tstests.csproj (in 275 ms).\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\Class1.cs(24,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\tdlib.csproj]\r\n  tdlib -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\bin\\Debug\\net10.0\\tdlib.dll\r\n  tstests -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tstests\\bin\\Debug\\net10.0\\tstests.dll\r\n\r\nBuild succeeded.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\Class1.cs(24,33): warning CS8600: Converting null literal or possible null value to non-nullable type. [C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\tdlib.csproj]\r\n    1 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:02.07\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tstests\\bin\\Debug\\net10.0\\tstests.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n\r\nPassed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 45 ms - tstests.dll (net10.0)\r\n\n\n=== Issue4785\\take1\\tdlib\\tdlib.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n\n=== Build ===\n  tdlib -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4785\\take1\\tdlib\\bin\\Debug\\net10.0\\tdlib.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:00.74\r\n\n=== Test ===\n",
+    "test_error": "",
+    "test_conclusion": "Success: No regression failure (1 test(s) passed)",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:48:27Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

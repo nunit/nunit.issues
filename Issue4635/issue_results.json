@@ -1,0 +1,36 @@
+[
+  {
+    "number": 4635,
+    "project_path": "Issue4635.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net48"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit3TestAdapter=6.1.1-alpha.2",
+      "NUnit.Analyzers=4.11.2"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4635\\Issue4635.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue4635\r\n  [.NETFramework,Version=v4.8]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue4635 [.NETFramework,Version=v4.8] upgraded successfully\r\n\r\nElapsed: 00:00:05.4953992\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n",
+    "restore_error": "",
+    "build_result": "Failed",
+    "build_output": "C:\\repos\\nunit\\nunit.issues\\Issue4635\\UnitTest1.cs(19,9): error CS0103: The name \u0027CollectionAssert\u0027 does not exist in the current context [C:\\repos\\nunit\\nunit.issues\\Issue4635\\Issue4635.csproj]\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4635\\UnitTest1.cs(19,9): error CS0103: The name \u0027CollectionAssert\u0027 does not exist in the current context [C:\\repos\\nunit\\nunit.issues\\Issue4635\\Issue4635.csproj]\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:01.21\r\n",
+    "build_error": "",
+    "test_result": "NotRun",
+    "test_output": "=== Issue4635\\Issue4635.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  All projects are up-to-date for restore.\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4635\\UnitTest1.cs(19,9): error CS0103: The name \u0027CollectionAssert\u0027 does not exist in the current context [C:\\repos\\nunit\\nunit.issues\\Issue4635\\Issue4635.csproj]\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4635\\UnitTest1.cs(19,9): error CS0103: The name \u0027CollectionAssert\u0027 does not exist in the current context [C:\\repos\\nunit\\nunit.issues\\Issue4635\\Issue4635.csproj]\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:01.21\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Build failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:43:17Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

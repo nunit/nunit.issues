@@ -13,28 +13,28 @@
     "url": "https://github.com/nunit/nunit/issues/3325",
     "project_path": "VerifyNUnit4.csproj",
     "target_frameworks": [
-      "net6.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.6.0-preview-20230223-05"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
-        "version": "4.0.0-dev-07798"
+        "version": "4.4.0"
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "4.5.0-alpha.4"
+        "version": "6.1.0"
       },
       {
         "name": "NUnit.Analyzers",
-        "version": "3.6.1"
+        "version": "4.11.2"
       },
       {
         "name": "coverlet.collector",
-        "version": "3.2.0"
+        "version": "6.0.4"
       }
     ]
   }

@@ -1,0 +1,37 @@
+[
+  {
+    "number": 4400,
+    "project_path": "Issue4400.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit3TestAdapter=6.1.1-alpha.2",
+      "NUnit.Analyzers=4.11.2",
+      "coverlet.collector=6.0.4"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4400\\Issue4400.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue4400\r\n  [net10.0]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue4400 [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:05.3945151\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4400\\Issue4400.csproj (in 340 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  Issue4400 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4400\\bin\\Debug\\net10.0\\Issue4400.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.51\r\n",
+    "build_error": "",
+    "test_result": "Failed",
+    "test_output": "=== Issue4400\\Issue4400.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4400\\Issue4400.csproj (in 340 ms).\r\n\n=== Build ===\n  Issue4400 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4400\\bin\\Debug\\net10.0\\Issue4400.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.51\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4400\\bin\\Debug\\net10.0\\Issue4400.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n  Failed DatesShouldBeTheSame(null,\u00222023-01-01 13:00:00\u0022,10) [44 ms]\r\n  Error Message:\r\n     Assert.That(value, Is.EqualTo(expectedDateTime).Within(toleranceInSeconds).Seconds)\r\n  Expected: 2023-01-01 13:00:00 \u002B/- 00:00:10\r\n  But was:  null\r\n\r\n  Stack Trace:\r\n     at Issue4400.Tests.DatesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedDateTime, Int32 toleranceInSeconds) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 13\r\n   at InvokeStub_Tests.DatesShouldBeTheSame(Object, Span\u00601)\r\n\r\n1)    at Issue4400.Tests.DatesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedDateTime, Int32 toleranceInSeconds) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 13\r\n   at InvokeStub_Tests.DatesShouldBeTheSame(Object, Span\u00601)\r\n\r\n\r\n  Failed DatesShouldBeTheSame(\u00222023-01-01 13:00:00\u0022,null,10) [\u003C 1 ms]\r\n  Error Message:\r\n     Assert.That(value, Is.EqualTo(expectedDateTime).Within(toleranceInSeconds).Seconds)\r\n  Expected: null \u002B/- 00:00:10\r\n  But was:  2023-01-01 13:00:00\r\n\r\n  Stack Trace:\r\n     at Issue4400.Tests.DatesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedDateTime, Int32 toleranceInSeconds) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 13\r\n   at InvokeStub_Tests.DatesShouldBeTheSame(Object, Span\u00601)\r\n\r\n1)    at Issue4400.Tests.DatesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedDateTime, Int32 toleranceInSeconds) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 13\r\n   at InvokeStub_Tests.DatesShouldBeTheSame(Object, Span\u00601)\r\n\r\n\r\n  Failed DoublesShouldBeTheSame(null,42.05d,0.1d) [\u003C 1 ms]\r\n  Error Message:\r\n     Assert.That(value, Is.EqualTo(expectedValue).Within(tolerance))\r\n  Expected: 42.049999999999997d \u002B/- 0.10000000000000001d\r\n  But was:  null\r\n\r\n  Stack Trace:\r\n     at Issue4400.Tests.DoublesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedValue, Double tolerance) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 32\r\n   at InvokeStub_Tests.DoublesShouldBeTheSame(Object, Span\u00601)\r\n\r\n1)    at Issue4400.Tests.DoublesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedValue, Double tolerance) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 32\r\n   at InvokeStub_Tests.DoublesShouldBeTheSame(Object, Span\u00601)\r\n\r\n\r\n  Failed DoublesShouldBeTheSame(42.05d,null,0.1d) [\u003C 1 ms]\r\n  Error Message:\r\n     Assert.That(value, Is.EqualTo(expectedValue).Within(tolerance))\r\n  Expected: null \u002B/- 0.10000000000000001d\r\n  But was:  42.049999999999997d\r\n\r\n  Stack Trace:\r\n     at Issue4400.Tests.DoublesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedValue, Double tolerance) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 32\r\n   at InvokeStub_Tests.DoublesShouldBeTheSame(Object, Span\u00601)\r\n\r\n1)    at Issue4400.Tests.DoublesShouldBeTheSame(Nullable\u00601 value, Nullable\u00601 expectedValue, Double tolerance) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 32\r\n   at InvokeStub_Tests.DoublesShouldBeTheSame(Object, Span\u00601)\r\n\r\n\r\n  Failed StringsShouldBeTheSame(null,\u00222023-01-01 13:00:00\u0022) [\u003C 1 ms]\r\n  Error Message:\r\n     Assert.That(value, Is.EqualTo(expectedValue))\r\n  Expected: \u00222023-01-01 13:00:00\u0022\r\n  But was:  null\r\n\r\n  Stack Trace:\r\n     at Issue4400.Tests.StringsShouldBeTheSame(String value, String expectedValue) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 22\r\n   at InvokeStub_Tests.StringsShouldBeTheSame(Object, Span\u00601)\r\n\r\n1)    at Issue4400.Tests.StringsShouldBeTheSame(String value, String expectedValue) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 22\r\n   at InvokeStub_Tests.StringsShouldBeTheSame(Object, Span\u00601)\r\n\r\n\r\n  Failed StringsShouldBeTheSame(\u00222023-01-01 13:00:00\u0022,null) [\u003C 1 ms]\r\n  Error Message:\r\n     Assert.That(value, Is.EqualTo(expectedValue))\r\n  Expected: null\r\n  But was:  \u00222023-01-01 13:00:00\u0022\r\n\r\n  Stack Trace:\r\n     at Issue4400.Tests.StringsShouldBeTheSame(String value, String expectedValue) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 22\r\n   at InvokeStub_Tests.StringsShouldBeTheSame(Object, Span\u00601)\r\n\r\n1)    at Issue4400.Tests.StringsShouldBeTheSame(String value, String expectedValue) in C:\\repos\\nunit\\nunit.issues\\Issue4400\\UnitTest1.cs:line 22\r\n   at InvokeStub_Tests.StringsShouldBeTheSame(Object, Span\u00601)\r\n\r\n\r\n\r\nFailed!  - Failed:     6, Passed:     6, Skipped:     0, Total:    12, Duration: 73 ms - Issue4400.dll (net10.0)\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Test assertions failed (6 passed, 6 failed)",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:38:40Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

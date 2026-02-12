@@ -1,0 +1,36 @@
+[
+  {
+    "number": 4794,
+    "project_path": "Issue4794.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net48",
+      "net10.0"
+    ],
+    "packages": [
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit3TestAdapter=6.1.1-alpha.2",
+      "Microsoft.NET.Test.Sdk=18.0.1"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4794\\Issue4794.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue4794\r\n  [net10.0]\r\n  NUnit              4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n  NUnit3TestAdapter  6.1.1-alpha.2    -\u003E 6.1.1-alpha.48  \r\n  [.NETFramework,Version=v4.8]\r\n  NUnit              4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n  NUnit3TestAdapter  6.1.1-alpha.2    -\u003E 6.1.1-alpha.48  \r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue4794 [net10.0] upgraded successfully\r\nProject Issue4794 [.NETFramework,Version=v4.8] upgraded successfully\r\n\r\nUpgrading package NUnit3TestAdapter...\r\nProject Issue4794 [net10.0] upgraded successfully\r\nProject Issue4794 [.NETFramework,Version=v4.8] upgraded successfully\r\n\r\nElapsed: 00:00:13.0149889\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj (in 355 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net10.0]\r\n  Issue4794 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4794\\bin\\Debug\\net10.0\\Issue4794.dll\r\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net48]\r\n  Issue4794 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4794\\bin\\Debug\\net48\\Issue4794.dll\r\n\r\nBuild succeeded.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net10.0]\r\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net48]\r\n    2 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.19\r\n",
+    "build_error": "",
+    "test_result": "Success",
+    "test_output": "=== Issue4794\\Issue4794.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj (in 355 ms).\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net10.0]\r\n  Issue4794 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4794\\bin\\Debug\\net10.0\\Issue4794.dll\r\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net48]\r\n  Issue4794 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4794\\bin\\Debug\\net48\\Issue4794.dll\r\n\r\nBuild succeeded.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net10.0]\r\nC:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794Repro.cs(37,35): warning CS8632: The annotation for nullable reference types should only be used in code within a \u0027#nullable\u0027 annotations context. [C:\\repos\\nunit\\nunit.issues\\Issue4794\\Issue4794.csproj::TargetFramework=net48]\r\n    2 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.19\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4794\\bin\\Debug\\net48\\Issue4794.dll (.NETFramework,Version=v4.8)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4794\\bin\\Debug\\net10.0\\Issue4794.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n\r\nPassed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     6, Duration: 69 ms - Issue4794.dll (net10.0)\r\n\r\nPassed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     6, Duration: 202 ms - Issue4794.dll (net48)\r\n",
+    "test_error": "",
+    "test_conclusion": "Success: No regression failure (12 test(s) passed)",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:49:21Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

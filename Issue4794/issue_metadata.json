@@ -12,20 +12,20 @@
     "project_path": "Issue4794.csproj",
     "target_frameworks": [
       "net48",
-      "net8.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "NUnit",
-        "version": "4.2.1"
+        "version": "4.4.0"
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "4.6.0"
+        "version": "6.1.0"
       },
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.11.0"
+        "version": "18.0.1"
       }
     ]
   }

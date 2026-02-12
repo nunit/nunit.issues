@@ -10,12 +10,12 @@
     "url": "https://github.com/nunit/nunit/issues/4860",
     "project_path": "dotnet-nunit-asp-console-writeline.csproj",
     "target_frameworks": [
-      "net8.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.0"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
@@ -23,7 +23,7 @@
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "5.2.0"
+        "version": "6.1.0"
       },
       {
         "name": "Microsoft.Extensions.Logging",

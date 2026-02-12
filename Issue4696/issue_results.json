@@ -1,0 +1,32 @@
+[
+  {
+    "number": 4696,
+    "project_path": "TestMain\\TestMain.csproj",
+    "project_style": "classic",
+    "target_frameworks": [],
+    "packages": [
+      "NUnit=3.14.0",
+      "NUnitLite=3.14.0"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4696\\TestMain\\TestMain.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\nNo outdated dependencies were detected\r\nElapsed: 00:00:01.0810687\r\n\n\n[Issue4696\\TestProject1\\TestProject1.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\nNo outdated dependencies were detected\r\nElapsed: 00:00:00.9719799\r\n\n\n[Issue4696\\TestProject2\\TestProject2.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\nNo outdated dependencies were detected\r\nElapsed: 00:00:00.9744280\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Nothing to do. None of the projects specified contain packages to restore.\r\n",
+    "restore_error": "",
+    "build_result": "Failed",
+    "build_output": "C:\\repos\\nunit\\nunit.issues\\Issue4696\\TestProject2\\TestProject2.csproj(54,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestProject2\\TestProject2.csproj(54,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:00.23\r\n",
+    "build_error": "",
+    "test_result": "NotRun",
+    "test_output": "=== Issue4696\\TestMain\\TestMain.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Nothing to do. None of the projects specified contain packages to restore.\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestMain\\TestMain.csproj(71,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestMain\\TestMain.csproj(71,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:00.24\r\n\n\n=== Issue4696\\TestProject1\\TestProject1.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Nothing to do. None of the projects specified contain packages to restore.\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestProject1\\TestProject1.csproj(54,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestProject1\\TestProject1.csproj(54,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:00.24\r\n\n\n=== Issue4696\\TestProject2\\TestProject2.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Nothing to do. None of the projects specified contain packages to restore.\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestProject2\\TestProject2.csproj(54,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4696\\TestProject2\\TestProject2.csproj(54,5): error : This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is ..\\packages\\NUnit.3.14.0\\build\\NUnit.props.\r\n    0 Warning(s)\r\n    1 Error(s)\r\n\r\nTime Elapsed 00:00:00.23\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Build failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:46:45Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

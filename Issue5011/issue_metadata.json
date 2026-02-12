@@ -10,12 +10,12 @@
     "url": "https://github.com/nunit/nunit/issues/5011",
     "project_path": "currentversion\\currentversion.csproj",
     "target_frameworks": [
-      "net8.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "coverlet.collector",
-        "version": "6.0.2"
+        "version": "6.0.4"
       },
       {
         "name": "Fhi.ClientCredentials.TestSupport",
@@ -23,19 +23,19 @@
       },
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.14.1"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
-        "version": "4.4.0-beta.2.1"
-      },
-      {
-        "name": "NUnit.Analyzers",
         "version": "4.4.0"
       },
       {
+        "name": "NUnit.Analyzers",
+        "version": "4.11.2"
+      },
+      {
         "name": "NUnit3TestAdapter",
-        "version": "5.0.0"
+        "version": "6.1.0"
       }
     ]
   },
@@ -50,12 +50,12 @@
     "url": "https://github.com/nunit/nunit/issues/5011",
     "project_path": "lastversion\\lastversion.csproj",
     "target_frameworks": [
-      "net8.0"
+      "net10.0"
     ],
     "packages": [
       {
         "name": "coverlet.collector",
-        "version": "6.0.2"
+        "version": "6.0.4"
       },
       {
         "name": "Fhi.ClientCredentials.TestSupport",
@@ -63,19 +63,19 @@
       },
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.12.0"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
-        "version": "4.3.2"
-      },
-      {
-        "name": "NUnit.Analyzers",
         "version": "4.4.0"
       },
       {
+        "name": "NUnit.Analyzers",
+        "version": "4.11.2"
+      },
+      {
         "name": "NUnit3TestAdapter",
-        "version": "5.0.0"
+        "version": "6.1.0"
       }
     ]
   }

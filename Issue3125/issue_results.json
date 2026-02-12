@@ -1,0 +1,37 @@
+[
+  {
+    "number": 3125,
+    "project_path": "Issue3125.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "coverlet.collector=6.0.4",
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit.Analyzers=4.11.2",
+      "NUnit3TestAdapter=6.1.1-alpha.2"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue3125\\Issue3125.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue3125\r\n  [net10.0]\r\n  NUnit              4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n  NUnit3TestAdapter  6.1.1-alpha.2    -\u003E 6.1.1-alpha.48  \r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue3125 [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit3TestAdapter...\r\nProject Issue3125 [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:16.1425438\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj (in 290 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Failed",
+    "build_output": "C:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,20): error CS0031: Constant value \u002742000\u0027 cannot be converted to a \u0027short\u0027 [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(20,20): error CS0266: Cannot implicitly convert type \u0027int\u0027 to \u0027short\u0027. An explicit conversion exists (are you missing a cast?) [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(15,15): warning CS0219: The variable \u0027y\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(18,15): warning CS0219: The variable \u0027s\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,15): warning CS0219: The variable \u0027s2\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(15,15): warning CS0219: The variable \u0027y\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(18,15): warning CS0219: The variable \u0027s\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,15): warning CS0219: The variable \u0027s2\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,20): error CS0031: Constant value \u002742000\u0027 cannot be converted to a \u0027short\u0027 [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(20,20): error CS0266: Cannot implicitly convert type \u0027int\u0027 to \u0027short\u0027. An explicit conversion exists (are you missing a cast?) [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\n    3 Warning(s)\r\n    2 Error(s)\r\n\r\nTime Elapsed 00:00:01.22\r\n",
+    "build_error": "",
+    "test_result": "NotRun",
+    "test_output": "=== Issue3125\\Issue3125.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj (in 290 ms).\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,20): error CS0031: Constant value \u002742000\u0027 cannot be converted to a \u0027short\u0027 [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(20,20): error CS0266: Cannot implicitly convert type \u0027int\u0027 to \u0027short\u0027. An explicit conversion exists (are you missing a cast?) [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(15,15): warning CS0219: The variable \u0027y\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(18,15): warning CS0219: The variable \u0027s\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,15): warning CS0219: The variable \u0027s2\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\n\r\nBuild FAILED.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(15,15): warning CS0219: The variable \u0027y\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(18,15): warning CS0219: The variable \u0027s\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,15): warning CS0219: The variable \u0027s2\u0027 is assigned but its value is never used [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(19,20): error CS0031: Constant value \u002742000\u0027 cannot be converted to a \u0027short\u0027 [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\nC:\\repos\\nunit\\nunit.issues\\Issue3125\\UnitTest1.cs(20,20): error CS0266: Cannot implicitly convert type \u0027int\u0027 to \u0027short\u0027. An explicit conversion exists (are you missing a cast?) [C:\\repos\\nunit\\nunit.issues\\Issue3125\\Issue3125.csproj]\r\n    3 Warning(s)\r\n    2 Error(s)\r\n\r\nTime Elapsed 00:00:01.22\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Build failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:34:50Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

@@ -12,7 +12,7 @@
     "url": "https://github.com/nunit/nunit/issues/5030",
     "project_path": "MyTestWebApi.Tests\\MyTestWebApi.Tests.csproj",
     "target_frameworks": [
-      "net9.0"
+      "net10.0"
     ],
     "packages": [
       {
@@ -21,11 +21,11 @@
       },
       {
         "name": "Microsoft.AspNetCore.Mvc.Testing",
-        "version": "9.0.9"
+        "version": "10.0.2"
       },
       {
         "name": "Microsoft.NET.Test.Sdk",
-        "version": "17.14.1"
+        "version": "18.0.1"
       },
       {
         "name": "NUnit",
@@ -33,11 +33,11 @@
       },
       {
         "name": "NUnit.Analyzers",
-        "version": "4.10.0"
+        "version": "4.11.2"
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "5.1.0"
+        "version": "6.1.0"
       },
       {
         "name": "TeamCity.VSTest.TestAdapter",
@@ -58,7 +58,7 @@
     "url": "https://github.com/nunit/nunit/issues/5030",
     "project_path": "MyTestWebApi\\MyTestWebApi.csproj",
     "target_frameworks": [
-      "net9.0"
+      "net10.0"
     ],
     "packages": [
       {

@@ -1,0 +1,35 @@
+[
+  {
+    "number": 4707,
+    "project_path": "RetrieveParallelScope.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.4.0",
+      "Microsoft.CSharp=4.7.0"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue4707\\RetrieveParallelScope.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\nNo outdated dependencies were detected\r\nElapsed: 00:00:01.6747754\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\nC:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj : warning NU1510: PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary. [C:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.sln]\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj (in 324 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "C:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj : warning NU1510: PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.\r\n  RetrieveParallelScope -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4707\\bin\\Debug\\net10.0\\RetrieveParallelScope.dll\r\n\r\nBuild succeeded.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj : warning NU1510: PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.\r\n    1 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.36\r\n",
+    "build_error": "",
+    "test_result": "Success",
+    "test_output": "=== Issue4707\\RetrieveParallelScope.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\nC:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj : warning NU1510: PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary. [C:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.sln]\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj (in 324 ms).\r\n\n=== Build ===\nC:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj : warning NU1510: PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.\r\n  RetrieveParallelScope -\u003E C:\\repos\\nunit\\nunit.issues\\Issue4707\\bin\\Debug\\net10.0\\RetrieveParallelScope.dll\r\n\r\nBuild succeeded.\r\n\r\nC:\\repos\\nunit\\nunit.issues\\Issue4707\\RetrieveParallelScope.csproj : warning NU1510: PackageReference Microsoft.CSharp will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.\r\n    1 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.36\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue4707\\bin\\Debug\\net10.0\\RetrieveParallelScope.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n\r\nPassed!  - Failed:     0, Passed:     6, Skipped:     0, Total:     6, Duration: 34 ms - RetrieveParallelScope.dll (net10.0)\r\n",
+    "test_error": "",
+    "test_conclusion": "Success: No regression failure (6 test(s) passed)",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:46:54Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

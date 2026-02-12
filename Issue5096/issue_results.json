@@ -1,0 +1,36 @@
+[
+  {
+    "number": 5096,
+    "project_path": "Issue5096.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.5.0-alpha.0.35",
+      "NUnit.Analyzers=4.11.2",
+      "NUnit3TestAdapter=6.1.1-alpha.2"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue5096\\Issue5096.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue5096\r\n  [net10.0]\r\n  NUnit  4.5.0-alpha.0.35 -\u003E 4.5.0-alpha.0.36\r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue5096 [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:05.1556618\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue5096\\Issue5096.csproj (in 314 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  Issue5096 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5096\\bin\\Debug\\net10.0\\Issue5096.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.50\r\n",
+    "build_error": "",
+    "test_result": "Failed",
+    "test_output": "=== Issue5096\\Issue5096.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue5096\\Issue5096.csproj (in 314 ms).\r\n\n=== Build ===\n  Issue5096 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5096\\bin\\Debug\\net10.0\\Issue5096.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.50\r\n\n=== Test ===\nMSBUILD : error MSB1001: Unknown switch.\r\n    Full command line: \u0027C:\\Program Files\\dotnet\\sdk\\10.0.103\\MSBuild.dll -maxcpucount --verbosity:m -tlp:default=auto --property:VSTestNoBuild=true --property:NuGetInteractive=false --property:VSTestArtifactsProcessingMode=collect --property:VSTestSessionCorrelationId=63364_79605810-c3b0-4ca0-8ae5-e6bfb439f984 --target:VSTest -nodereuse:false -nologo -restore:false --solution Issue5096.sln -distributedlogger:Microsoft.DotNet.Cli.Commands.MSBuild.MSBuildLogger,C:\\Program Files\\dotnet\\sdk\\10.0.103\\dotnet.dll*Microsoft.DotNet.Cli.Commands.MSBuild.MSBuildForwardingLogger,C:\\Program Files\\dotnet\\sdk\\10.0.103\\dotnet.dll\u0027\r\n  Switches appended by response files:\r\nSwitch: --solution\r\n\r\nFor switch syntax, type \u0022MSBuild -help\u0022\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Tests failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:54:50Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

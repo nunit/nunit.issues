@@ -1,4 +1,6 @@
-﻿namespace Issue5031;
+﻿using NUnit.Framework;
+
+namespace Issue5031;
 
 public class Tests
 {

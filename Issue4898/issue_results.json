@@ -1,0 +1,39 @@
+[
+  {
+    "number": 4898,
+    "project_path": "checkredisnull\\checkredisnull.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "coverlet.collector=6.0.2",
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit.Analyzers=4.3.0",
+      "NUnit3TestAdapter=6.1.0",
+      "Microsoft.Extensions.Primitives=8.0.0",
+      "StackExchange.Redis=2.8.22",
+      "MongoDB.Bson=3.1.0"
+    ],
+    "update_result": "Failed",
+    "update_output": "[Issue4898\\checkredisnull\\checkredisnull.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\n",
+    "update_error": "[Issue4898\\checkredisnull\\checkredisnull.csproj]\nUnable to process the project \u0060C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj. Are you sure this is a valid .NET Core or .NET Standard project type?\r\n\r\nHere is the full error message returned from the Microsoft Build Engine:\r\n\r\nMSBuild version 18.0.11\u002Bc2435c3e0 for .NET\r\n  Determining projects to restore...\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109: Detected package downgrade: System.Runtime.CompilerServices.Unsafe from 6.1.2 to centrally defined 6.1.0. Update the centrally managed package version to a higher version.  [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109:  nunit.framework -\u003E System.Threading.Tasks.Extensions 4.6.3 -\u003E System.Runtime.CompilerServices.Unsafe (\u003E= 6.1.2)  [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109:  nunit.framework -\u003E System.Runtime.CompilerServices.Unsafe (\u003E= 6.1.0) [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj (in 361 ms).\r\n  Failed to restore C:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj (in 365 ms).\r\n -  - exit code: 1\r\n",
+    "restore_result": "Failed",
+    "restore_output": "  Determining projects to restore...\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109: Detected package downgrade: System.Runtime.CompilerServices.Unsafe from 6.1.2 to centrally defined 6.1.0. Update the centrally managed package version to a higher version.  [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109:  nunit.framework -\u003E System.Threading.Tasks.Extensions 4.6.3 -\u003E System.Runtime.CompilerServices.Unsafe (\u003E= 6.1.2)  [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109:  nunit.framework -\u003E System.Runtime.CompilerServices.Unsafe (\u003E= 6.1.0) [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj (in 299 ms).\r\n  Failed to restore C:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj (in 299 ms).\r\n",
+    "restore_error": "",
+    "build_result": "NotRun",
+    "build_output": "",
+    "build_error": "",
+    "test_result": "NotRun",
+    "test_output": "=== Issue4898\\checkredisnull\\checkredisnull.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109: Detected package downgrade: System.Runtime.CompilerServices.Unsafe from 6.1.2 to centrally defined 6.1.0. Update the centrally managed package version to a higher version.  [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109:  nunit.framework -\u003E System.Threading.Tasks.Extensions 4.6.3 -\u003E System.Runtime.CompilerServices.Unsafe (\u003E= 6.1.2)  [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\nC:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj : error NU1109:  nunit.framework -\u003E System.Runtime.CompilerServices.Unsafe (\u003E= 6.1.0) [C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj]\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue4898\\checkredisnull\\checkredisnull.csproj (in 299 ms).\r\n  Failed to restore C:\\repos\\nunit\\nunit\\src\\NUnitFramework\\framework\\nunit.framework.csproj (in 299 ms).\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Restore failed",
+    "runner_scripts": null,
+    "runsettings": null,
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:50:51Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

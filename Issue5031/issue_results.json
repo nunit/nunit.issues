@@ -1,0 +1,37 @@
+[
+  {
+    "number": 5031,
+    "project_path": "Issue5031.csproj",
+    "project_style": "SDK-style",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      "coverlet.collector=6.0.4",
+      "Microsoft.NET.Test.Sdk=18.0.1",
+      "NUnit=4.4.0",
+      "NUnit.Analyzers=4.10.0",
+      "NUnit3TestAdapter=6.1.0"
+    ],
+    "update_result": "Success",
+    "update_output": "[Issue5031\\Issue5031.csproj]\nDiscovering projects...\r\nAnalyzing project(s)...\r\nAnalyzing dependencies...\r\n\u00C2\u00BB Issue5031\r\n  [net10.0]\r\n  NUnit              4.4.0  -\u003E 4.5.0-alpha.0.36\r\n  NUnit.Analyzers    4.10.0 -\u003E 4.11.2          \r\n  NUnit3TestAdapter  6.1.0  -\u003E 6.1.1-alpha.2   \r\n\r\nVersion color legend:\r\n\u003Cred\u003E   : Major version update or pre-release version. Possible breaking changes.\r\n\u003Cyellow\u003E: Minor version update. Backwards-compatible features added.\r\n\u003Cgreen\u003E : Patch version update. Backwards-compatible bug fixes.\r\n\r\nUpgrading package NUnit...\r\nProject Issue5031 [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit.Analyzers...\r\nProject Issue5031 [net10.0] upgraded successfully\r\n\r\nUpgrading package NUnit3TestAdapter...\r\nProject Issue5031 [net10.0] upgraded successfully\r\n\r\nElapsed: 00:00:11.4162971\r\n",
+    "update_error": "",
+    "restore_result": "Success",
+    "restore_output": "  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue5031\\Issue5031.csproj (in 351 ms).\r\n",
+    "restore_error": "",
+    "build_result": "Success",
+    "build_output": "  Issue5031 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5031\\bin\\Debug\\net10.0\\Issue5031.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.43\r\n",
+    "build_error": "",
+    "test_result": "Failed",
+    "test_output": "=== Issue5031\\Issue5031.csproj ===\n=== Restore ===\n  Determining projects to restore...\r\n  Restored C:\\repos\\nunit\\nunit.issues\\Issue5031\\Issue5031.csproj (in 351 ms).\r\n\n=== Build ===\n  Issue5031 -\u003E C:\\repos\\nunit\\nunit.issues\\Issue5031\\bin\\Debug\\net10.0\\Issue5031.dll\r\n\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:01.43\r\n\n=== Test ===\nTest run for C:\\repos\\nunit\\nunit.issues\\Issue5031\\bin\\Debug\\net10.0\\Issue5031.dll (.NETCoreApp,Version=v10.0)\r\nVSTest version 18.0.1 (x64)\r\n\r\nStarting test execution, please wait...\r\nA total of 1 test files matched the specified pattern.\r\n  Failed Test2 [53 ms]\r\n  Error Message:\r\n   Multiple failures or warnings in test:\r\n  1)   Assert.That(count, Is.Not.EqualTo(3).And.Not.EqualTo(4))\r\n  Expected: not equal to 3 and not equal to 4\r\n  But was:  3\r\n\r\n     at Issue5031.Tests.Test2() in C:\\repos\\nunit\\nunit.issues\\Issue5031\\UnitTest1.cs:line 29\r\n   at InvokeStub_Tests.Test2(Object, Object, IntPtr*)\r\n\r\n  2)   Assert.That(count, Is.Not.EqualTo(3).And.Not.EqualTo(4))\r\n  Expected: not equal to 3 and not equal to 4\r\n  But was:  4\r\n\r\n     at Issue5031.Tests.Test2() in C:\\repos\\nunit\\nunit.issues\\Issue5031\\UnitTest1.cs:line 29\r\n   at InvokeStub_Tests.Test2(Object, Object, IntPtr*)\r\n\r\n\r\n  Stack Trace:\r\n  \r\n1)    at Issue5031.Tests.Test2() in C:\\repos\\nunit\\nunit.issues\\Issue5031\\UnitTest1.cs:line 29\r\n   at InvokeStub_Tests.Test2(Object, Object, IntPtr*)\r\n\r\n2)    at Issue5031.Tests.Test2() in C:\\repos\\nunit\\nunit.issues\\Issue5031\\UnitTest1.cs:line 29\r\n   at InvokeStub_Tests.Test2(Object, Object, IntPtr*)\r\n\r\n\r\n  Standard Output Messages:\r\n 0\r\n 1\r\n 2\r\n 3\r\n 4\r\n\r\n\r\n\r\nFailed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 69 ms - Issue5031.dll (net10.0)\r\n",
+    "test_error": "",
+    "test_conclusion": "Failure: Test assertions failed (1 passed, 1 failed)",
+    "runner_scripts": null,
+    "runsettings": "C:/repos/nunit/nunit.issues\\Issue5031\\.runsettings",
+    "feed": "Alpha",
+    "runner_expectations": null,
+    "last_run": "2026-02-12T12:53:56Z",
+    "run_result": "Run",
+    "reason": ""
+  }
+]

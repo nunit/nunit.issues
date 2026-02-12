@@ -10,7 +10,7 @@
     "url": "https://github.com/nunit/nunit/issues/3125",
     "project_path": "Issue3125.csproj",
     "target_frameworks": [
-      "net9.0"
+      "net10.0"
     ],
     "packages": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "name": "NUnit",
-        "version": "4.5.0-alpha.0.20"
+        "version": "4.4.0"
       },
       {
         "name": "NUnit.Analyzers",
@@ -31,7 +31,7 @@
       },
       {
         "name": "NUnit3TestAdapter",
-        "version": "5.2.0"
+        "version": "6.1.0"
       }
     ]
   }

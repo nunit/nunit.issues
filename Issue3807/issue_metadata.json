@@ -2,33 +2,13 @@
   {
     "number": 3807,
     "title": "DictionaryContainsKeyConstraint doesn\u0027t perform parameter type conversion on Invoke",
-    "state": "closed",
+    "state": 1,
     "milestone": "Closed Without Action",
     "labels": [
       "is:bug",
       "closed:wontfix",
       "pri:low"
     ],
-    "url": "https://github.com/nunit/nunit/issues/3807",
-    "project_path": "Issue3807.csproj",
-    "target_frameworks": [
-      "net10.0",
-      "net462",
-      "net472"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/3807"
   }
 ]

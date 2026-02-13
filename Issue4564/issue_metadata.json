@@ -2,34 +2,12 @@
   {
     "number": 4564,
     "title": "Tests not discovered for .NET Windows-specific TFM without Windows build number",
-    "state": "closed",
+    "state": 1,
     "milestone": "4.0.1",
     "labels": [
       "is:bug",
       "closed:done"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4564",
-    "project_path": "NUnitRunnerWindows\\NUnitRunnerWindows.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit.Analyzers",
-        "version": "4.11.2"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4564"
   }
 ]

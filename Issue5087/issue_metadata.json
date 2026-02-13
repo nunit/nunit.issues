@@ -1,0 +1,12 @@
+[
+  {
+    "number": 5087,
+    "title": "InvalidCastException for arguments when running nunit console with .NET 8 or 10",
+    "state": 0,
+    "milestone": "4.5",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5087"
+  }
+]

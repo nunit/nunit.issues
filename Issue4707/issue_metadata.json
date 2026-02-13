@@ -2,29 +2,11 @@
   {
     "number": 4707,
     "title": "Missing possibility to retrieve whether a test is running in parallel (formerly ...retrieve a test\u0027s resulting \u0060ParallelScope\u0060)",
-    "state": "open",
+    "state": 0,
     "milestone": "No milestone",
     "labels": [
       "awaiting:discussion"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4707",
-    "project_path": "RetrieveParallelScope.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "Microsoft.CSharp",
-        "version": "4.7.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4707"
   }
 ]

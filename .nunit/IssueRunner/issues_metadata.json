@@ -2,7 +2,7 @@
   {
     "number": 548,
     "title": "Properties set on a parameterized method are not accessible to TestContext",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:enhancement",
@@ -13,7 +13,7 @@
   {
     "number": 1056,
     "title": "ITestCaseData does not show test with Visual Studio Test Adapter 3.0.7",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "is:bug",
@@ -25,7 +25,7 @@
   {
     "number": 1151,
     "title": "Include differences in output for Is.EquivalentTo",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "3.8",
     "labels": [
       "is:enhancement",
@@ -37,7 +37,7 @@
   {
     "number": 1713,
     "title": "SetupFixture methods are executed even if no tests from their namespace are selected to run",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:bug",
@@ -48,7 +48,7 @@
   {
     "number": 1726,
     "title": "Consider hiding \u0060Is.Equals\u0060 using \u0060[EditorBrowsable(EditorBrowsableState.Never)]\u0060",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:enhancement",
@@ -60,7 +60,7 @@
   {
     "number": 2466,
     "title": "Missing stack trace when exception occurs during OneTimeSetUp",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "3.14",
     "labels": [
       "is:bug",
@@ -71,7 +71,7 @@
   {
     "number": 2851,
     "title": "Tests are green with exceptions thrown in async void inner method (test itself is async Task)",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [],
     "url": "https://github.com/nunit/nunit/issues/2851"
@@ -79,7 +79,7 @@
   {
     "number": 3125,
     "title": "TestCaseSource \u0022Single\u0022 cannot be converted to \u0022int\u0022 issue",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:bug"
@@ -89,7 +89,7 @@
   {
     "number": 3148,
     "title": "TestContext.Current.TestDirectory returns incorrect value",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:question"
@@ -99,7 +99,7 @@
   {
     "number": 3325,
     "title": "NUnit Planning",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Future Planning",
     "labels": [
       "is:enhancement",
@@ -112,7 +112,7 @@
   {
     "number": 3807,
     "title": "DictionaryContainsKeyConstraint doesn\u0027t perform parameter type conversion on Invoke",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "is:bug",
@@ -124,7 +124,7 @@
   {
     "number": 3849,
     "title": "Assert.Catch inside Assert.Multiple gives unclear failure message",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:bug"
@@ -134,7 +134,7 @@
   {
     "number": 3930,
     "title": "Whole tests sequence is aborted when single test fails because of async bug",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:bug"
@@ -144,7 +144,7 @@
   {
     "number": 4268,
     "title": "Test filter on a SetUpFixture class without namespace run the whole assembly",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:question",
@@ -155,7 +155,7 @@
   {
     "number": 4281,
     "title": "Throws and Delayed (.After) Constraints do not cooperate, resulting in incorrectly failing test",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.3",
     "labels": [
       "is:bug",
@@ -167,7 +167,7 @@
   {
     "number": 4298,
     "title": "Results for outer class are not reported in since version 3.13.2",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "closed:noresponsefromreporter"
@@ -177,7 +177,7 @@
   {
     "number": 4353,
     "title": "TestContext.AddTestAttachment with long file paths",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:enhancement",
@@ -189,7 +189,7 @@
   {
     "number": 4371,
     "title": "Timeout does not properly abort unit test and run longer than the threshold",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "closed:noresponsefromreporter"
@@ -199,7 +199,7 @@
   {
     "number": 4400,
     "title": "Within throws ArgumentException if null value is involved",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.0",
     "labels": [
       "is:bug",
@@ -210,7 +210,7 @@
   {
     "number": 4401,
     "title": "Analyzer message NUnit2005 is annoying",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [],
     "url": "https://github.com/nunit/nunit/issues/4401"
@@ -218,7 +218,7 @@
   {
     "number": 1107,
     "title": "Assert.Multiple doesn\u0027t provide stacktrace for found failures",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:bug"
@@ -228,7 +228,7 @@
   {
     "number": 4413,
     "title": "Assert.That methods should autogenerate message, if null",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.0",
     "labels": [
       "is:enhancement",
@@ -239,7 +239,7 @@
   {
     "number": 4423,
     "title": "Chaining multiple collection asserts with index",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.0",
     "labels": [
       "is:bug",
@@ -251,7 +251,7 @@
   {
     "number": 4426,
     "title": "Testfixture is silently ignored if exception in constructor and DatapointSource",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:bug",
@@ -262,7 +262,7 @@
   {
     "number": 4446,
     "title": "Why does {c} return the name of the base class, not the derived class?",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "Investigate"
@@ -272,7 +272,7 @@
   {
     "number": 4455,
     "title": "DatapointSource fields show as being unused in Rider/Resharper",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [],
     "url": "https://github.com/nunit/nunit/issues/4455"
@@ -280,7 +280,7 @@
   {
     "number": 4491,
     "title": "NUnit 4.0 fails when [Repeat] is present and test passes",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.0",
     "labels": [
       "is:bug",
@@ -291,7 +291,7 @@
   {
     "number": 4537,
     "title": "AssertException in TearDown hides Exception in Test",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.4",
     "labels": [
       "is:bug",
@@ -302,7 +302,7 @@
   {
     "number": 4545,
     "title": "DelegatingConstraintResult does not use its \u0060_innerResult\u0060 for \u0060WriteMessageTo\u0060 ",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.4",
     "labels": [
       "is:bug",
@@ -314,7 +314,7 @@
   {
     "number": 4549,
     "title": "Documentation of valid (or invalid) characters for SetCategory() and SetName()",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:question"
@@ -324,7 +324,7 @@
   {
     "number": 4554,
     "title": "Inherited SetUpFixture has stopped working going from NUnit 3.13.3 to 3.14.0/4.0.0-beta.1",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.0",
     "labels": [
       "is:bug",
@@ -336,7 +336,7 @@
   {
     "number": 4564,
     "title": "Tests not discovered for .NET Windows-specific TFM without Windows build number",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.0.1",
     "labels": [
       "is:bug",
@@ -347,7 +347,7 @@
   {
     "number": 4572,
     "title": "Make new PropertiesComparer optional",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.1",
     "labels": [
       "is:enhancement",
@@ -358,7 +358,7 @@
   {
     "number": 4584,
     "title": "Nunit 4.0.x Test case selection is incorrect with certain test data",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:bug",
@@ -369,7 +369,7 @@
   {
     "number": 4588,
     "title": "Assert.ThatAsync doesn\u0027t seem to work with ValueTask",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:enhancement"
@@ -379,7 +379,7 @@
   {
     "number": 4589,
     "title": "Exception when using test filters from .runsettings or --filter argument from dotnet test",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:bug",
@@ -390,7 +390,7 @@
   {
     "number": 4598,
     "title": "DefaultTimeout in .runsettings \u002B TearDown method seems to break test output",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:bug",
@@ -401,7 +401,7 @@
   {
     "number": 4613,
     "title": "Can you please give us back \u0060Assert.IsNotNull\u0060, \u0060Assert.IsFalse\u0060 etc.?",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:enhancement",
@@ -412,7 +412,7 @@
   {
     "number": 4619,
     "title": "TimeoutAttribute causes context in TearDown to have incorrect info.",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "closed:wontfix"
@@ -422,7 +422,7 @@
   {
     "number": 4635,
     "title": "CollectionAssert (mis)handling of IList implementation",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "closed:fixedin_newer_version"
@@ -432,7 +432,7 @@
   {
     "number": 4644,
     "title": "Nunit 4 VsCode .Net 8",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:question"
@@ -442,7 +442,7 @@
   {
     "number": 4651,
     "title": "After upgrade from version 3.14.0 to 4.* running multiple test categories in parentheses separated with \u0027OR\u0027 stopped working",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:bug",
@@ -453,7 +453,7 @@
   {
     "number": 1392,
     "title": "nunit3-console doesn\u0027t see nugets from Microsoft.AspNetCore.App",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "Waiting for Comment"
@@ -463,7 +463,7 @@
   {
     "number": 4658,
     "title": "Apartment attribute ignored when .runsettings contains DefaultTimeout",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:bug"
@@ -473,7 +473,7 @@
   {
     "number": 4662,
     "title": "StringAssert.IsNullOrEmpty overloads",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:enhancement"
@@ -483,7 +483,7 @@
   {
     "number": 4670,
     "title": "\u0060.ContainKey().WithValue()\u0060 and \u0060.Or\u0060/\u0060.And\u0060 interact incorrectly",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2",
     "labels": [
       "is:bug",
@@ -494,7 +494,7 @@
   {
     "number": 4681,
     "title": "NUnit doesn\u0027t seem to be able to deal with \u0060PublicSign\u0060",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "closed:norepro"
@@ -504,7 +504,7 @@
   {
     "number": 4688,
     "title": "Difference between net5.0/net6.0 and netframework 4.7.2 in test tear down",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "closed:notabug",
@@ -515,7 +515,7 @@
   {
     "number": 4693,
     "title": "Re-add \u0022legacy\u0022 Assert methods",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:enhancement",
@@ -526,7 +526,7 @@
   {
     "number": 4696,
     "title": "Possibilities to estimate the total test duration before starting the first test?",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [],
     "url": "https://github.com/nunit/nunit/issues/4696"
@@ -534,7 +534,7 @@
   {
     "number": 4707,
     "title": "Missing possibility to retrieve whether a test is running in parallel (formerly ...retrieve a test\u0027s resulting \u0060ParallelScope\u0060)",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "awaiting:discussion"
@@ -544,7 +544,7 @@
   {
     "number": 4721,
     "title": "[OneTimeSetup] method runs even if all test methods are marked as [Explicit]",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "awaiting:discussion",
@@ -555,7 +555,7 @@
   {
     "number": 1197,
     "title": "Applying [Explicit] and [Ignore] Attributes to Test Class with Custom Category Ignores All Tests in Category",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "is:bug"
@@ -565,7 +565,7 @@
   {
     "number": 4744,
     "title": "Introduce HookExtension to support high level tests",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:enhancement",
@@ -576,7 +576,7 @@
   {
     "number": 4775,
     "title": "Regression Bug: Multidimensional arrays not handled as of NUnit 3.13.0",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "Closed Without Action",
     "labels": [
       "is:question",
@@ -587,7 +587,7 @@
   {
     "number": 4791,
     "title": "Question/Feature Request: Parallel scope for only multiple instances of one parameterized fixture at a time",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "Investigate"
@@ -597,7 +597,7 @@
   {
     "number": 4794,
     "title": "\u0060EqualConstraint\u0060 fails with missing assembly references on .NET Framework since NUnit 4.2",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2.1",
     "labels": [
       "is:bug",
@@ -608,7 +608,7 @@
   {
     "number": 4802,
     "title": "System.NotSupportedException when using AsyncEnumerable test cases for \u0060TestCaseSourceAttribute\u0060",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.2.2",
     "labels": [
       "is:bug",
@@ -619,7 +619,7 @@
   {
     "number": 1100,
     "title": "Document default parallelizability of STA tests",
-    "state": "open",
+    "state": "Open",
     "milestone": "No milestone",
     "labels": [
       "area:framework"
@@ -629,7 +629,7 @@
   {
     "number": 4860,
     "title": "Console.WriteLine not showing up from AspNetCore http handler",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "Investigate"
@@ -639,7 +639,7 @@
   {
     "number": 4878,
     "title": "Test process abortion is not reported on CI with dotnet test",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "closed:duplicate",
@@ -650,7 +650,7 @@
   {
     "number": 1510,
     "title": "exception occurred while invoking executor Unexpected token \u0027(\u0027 at position 100 in selection expression.",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "Bug"
@@ -660,7 +660,7 @@
   {
     "number": 4887,
     "title": "FileLoadException for NUnit 4.2.2 when upgrade the System.Buffers to 4.6.0",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.3",
     "labels": [
       "is:bug"
@@ -670,7 +670,7 @@
   {
     "number": 4898,
     "title": "Assert(..., Is.EqualTo(...)) issues since 4.3.0",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.3.1",
     "labels": [
       "is:bug"
@@ -680,7 +680,7 @@
   {
     "number": 4900,
     "title": "CancelAfter \u0026 TestCaseSource with CancellationToken method parameter cause test failures",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:enhancement",
@@ -692,7 +692,7 @@
   {
     "number": 4901,
     "title": "Logging from \u0060[SetUpFixture]\u0060-annotated class is MIA when running w/ \u0060dotnet test\u0060",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:question"
@@ -702,7 +702,7 @@
   {
     "number": 4906,
     "title": "Test error in TestContextOneTimeTearDownTests.",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.4",
     "labels": [
       "closed:done",
@@ -713,7 +713,7 @@
   {
     "number": 4907,
     "title": "Assert.ThatAsync fail to catch expected exception",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.3.2",
     "labels": [
       "is:bug"
@@ -723,7 +723,7 @@
   {
     "number": 4960,
     "title": "Inconsistent Message Output, depending on \u0060ResultState\u0060",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "closed:wontfix",
@@ -734,7 +734,7 @@
   {
     "number": 4962,
     "title": "CancellationToken Not Being Canceled With CancelAfterAttribute",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:question"
@@ -744,7 +744,7 @@
   {
     "number": 4964,
     "title": "Is.Not.EqualTo does not work correctly with Using comparer",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.4",
     "labels": [
       "is:bug"
@@ -754,7 +754,7 @@
   {
     "number": 4968,
     "title": "Asserts with UsingPropertiesComparer and Tolerance crashes unxpectedly if using TimeSpan and the class contains Properties with different types.",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.4",
     "labels": [
       "is:enhancement"
@@ -764,7 +764,7 @@
   {
     "number": 5011,
     "title": "Breaking change in version 4.4.0-beta.1",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.4",
     "labels": [
       "is:bug"
@@ -774,7 +774,7 @@
   {
     "number": 5030,
     "title": "ILogger logs are outputing 1 character per line during tests execution",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "closed:norepro",
@@ -786,7 +786,7 @@
   {
     "number": 5031,
     "title": "\u0060Repeat\u0060 attribute only prints output of last repetition after 4.4.0 update",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:bug",
@@ -798,7 +798,7 @@
   {
     "number": 5033,
     "title": "TestContext.CurrentContext.Result.StackTrace returning null when updated to version 4.4.0",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "closed:norepro",
@@ -809,7 +809,7 @@
   {
     "number": 5035,
     "title": "Please provide an official NUnitLogger",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "No milestone",
     "labels": [
       "is:idea",
@@ -820,11 +820,21 @@
   {
     "number": 5096,
     "title": "Unclear error if MTP times out in a setup fixture",
-    "state": "closed",
+    "state": "Closed",
     "milestone": "4.5",
     "labels": [
       "is:bug"
     ],
     "url": "https://github.com/nunit/nunit/issues/5096"
+  },
+  {
+    "number": 5087,
+    "title": "InvalidCastException for arguments when running nunit console with .NET 8 or 10",
+    "state": "Open",
+    "milestone": "4.5",
+    "labels": [
+      "is:bug"
+    ],
+    "url": "https://github.com/nunit/nunit/issues/5087"
   }
 ]

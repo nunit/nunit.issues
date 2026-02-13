@@ -2,33 +2,13 @@
   {
     "number": 4353,
     "title": "TestContext.AddTestAttachment with long file paths",
-    "state": "closed",
+    "state": 1,
     "milestone": "4.2",
     "labels": [
       "is:enhancement",
       "closed:done",
       "good first issue"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4353",
-    "project_path": "Issue4353.csproj",
-    "target_frameworks": [
-      "net10.0",
-      "net462",
-      "net472"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4353"
   }
 ]

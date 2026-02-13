@@ -2,39 +2,9 @@
   {
     "number": 4455,
     "title": "DatapointSource fields show as being unused in Rider/Resharper",
-    "state": "open",
+    "state": 0,
     "milestone": "No milestone",
     "labels": [],
-    "url": "https://github.com/nunit/nunit/issues/4455",
-    "project_path": "Issue4455.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      },
-      {
-        "name": "NUnit.Analyzers",
-        "version": "4.11.2"
-      },
-      {
-        "name": "coverlet.collector",
-        "version": "6.0.4"
-      },
-      {
-        "name": "JetBrains.Annotations",
-        "version": "2025.2.4"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4455"
   }
 ]

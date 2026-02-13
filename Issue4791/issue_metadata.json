@@ -2,37 +2,11 @@
   {
     "number": 4791,
     "title": "Question/Feature Request: Parallel scope for only multiple instances of one parameterized fixture at a time",
-    "state": "open",
+    "state": 0,
     "milestone": "No milestone",
     "labels": [
       "Investigate"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4791",
-    "project_path": "Scopes\\Scopes.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "coverlet.collector",
-        "version": "6.0.4"
-      },
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit.Analyzers",
-        "version": "4.11.2"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4791"
   }
 ]

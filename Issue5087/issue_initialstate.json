@@ -1,0 +1,36 @@
+{
+  "number": 5087,
+  "projects": [
+    {
+      "project_path": "Issue5087.csproj",
+      "target_frameworks": [
+        "net10.0",
+        "net8.0",
+        " net472"
+      ],
+      "packages": [
+        {
+          "name": "coverlet.collector",
+          "version": "6.0.4"
+        },
+        {
+          "name": "Microsoft.NET.Test.Sdk",
+          "version": "18.0.1"
+        },
+        {
+          "name": "NUnit",
+          "version": "4.5.0-alpha.0.35"
+        },
+        {
+          "name": "NUnit.Analyzers",
+          "version": "4.11.2"
+        },
+        {
+          "name": "NUnit3TestAdapter",
+          "version": "6.1.0"
+        }
+      ]
+    }
+  ],
+  "created_at": "2026-02-12T15:16:33Z"
+}

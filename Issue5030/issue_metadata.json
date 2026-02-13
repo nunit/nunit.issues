@@ -2,77 +2,25 @@
   {
     "number": 5030,
     "title": "ILogger logs are outputing 1 character per line during tests execution",
-    "state": "closed",
+    "state": 1,
     "milestone": "No milestone",
     "labels": [
       "closed:norepro",
       "awaiting:contributor",
       "closed:noresponsefromreporter"
     ],
-    "url": "https://github.com/nunit/nunit/issues/5030",
-    "project_path": "MyTestWebApi.Tests\\MyTestWebApi.Tests.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "coverlet.collector",
-        "version": "6.0.4"
-      },
-      {
-        "name": "Microsoft.AspNetCore.Mvc.Testing",
-        "version": "10.0.2"
-      },
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit.Analyzers",
-        "version": "4.11.2"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      },
-      {
-        "name": "TeamCity.VSTest.TestAdapter",
-        "version": "1.0.41"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/5030"
   },
   {
     "number": 5030,
     "title": "ILogger logs are outputing 1 character per line during tests execution",
-    "state": "closed",
+    "state": 1,
     "milestone": "No milestone",
     "labels": [
       "closed:norepro",
       "awaiting:contributor",
       "closed:noresponsefromreporter"
     ],
-    "url": "https://github.com/nunit/nunit/issues/5030",
-    "project_path": "MyTestWebApi\\MyTestWebApi.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "Swashbuckle.AspNetCore",
-        "version": "6.6.2"
-      },
-      {
-        "name": "Microsoft.Extensions.Logging.Console",
-        "version": "8.0.0"
-      },
-      {
-        "name": "Microsoft.AspNetCore.OpenApi",
-        "version": "8.0.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/5030"
   }
 ]

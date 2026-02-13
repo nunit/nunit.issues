@@ -2,38 +2,12 @@
   {
     "number": 4268,
     "title": "Test filter on a SetUpFixture class without namespace run the whole assembly",
-    "state": "closed",
+    "state": 1,
     "milestone": "No milestone",
     "labels": [
       "is:question",
       "closed:byDesign"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4268",
-    "project_path": "Issue4268.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      },
-      {
-        "name": "NUnit.Analyzers",
-        "version": "4.11.2"
-      },
-      {
-        "name": "coverlet.collector",
-        "version": "6.0.4"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4268"
   }
 ]

@@ -2,34 +2,11 @@
   {
     "number": 4681,
     "title": "NUnit doesn\u0027t seem to be able to deal with \u0060PublicSign\u0060",
-    "state": "closed",
+    "state": 1,
     "milestone": "Closed Without Action",
     "labels": [
       "closed:norepro"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4681",
-    "project_path": "Issue4681.csproj",
-    "target_frameworks": [
-      "net10.0",
-      "net48"
-    ],
-    "packages": [
-      {
-        "name": "InvertedTomato.Crc",
-        "version": "1.4.1"
-      },
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4681"
   }
 ]

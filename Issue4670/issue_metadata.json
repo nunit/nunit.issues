@@ -2,38 +2,12 @@
   {
     "number": 4670,
     "title": "\u0060.ContainKey().WithValue()\u0060 and \u0060.Or\u0060/\u0060.And\u0060 interact incorrectly",
-    "state": "closed",
+    "state": 1,
     "milestone": "4.2",
     "labels": [
       "is:bug",
       "closed:done"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4670",
-    "project_path": "Issue4670.csproj",
-    "target_frameworks": [
-      "net10.0"
-    ],
-    "packages": [
-      {
-        "name": "Microsoft.NET.Test.Sdk",
-        "version": "18.0.1"
-      },
-      {
-        "name": "NUnit",
-        "version": "4.4.0"
-      },
-      {
-        "name": "NUnit3TestAdapter",
-        "version": "6.1.0"
-      },
-      {
-        "name": "NUnit.Analyzers",
-        "version": "4.11.2"
-      },
-      {
-        "name": "coverlet.collector",
-        "version": "6.0.4"
-      }
-    ]
+    "url": "https://github.com/nunit/nunit/issues/4670"
   }
 ]

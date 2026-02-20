@@ -72,3 +72,59 @@ public sealed class ListAsParameterTests
     }
 }
 
+public sealed class ParamsAsLastAfterArrayParameterTests
+{
+    private static IEnumerable<Array> Testcases
+    {
+        get
+        {
+            yield return new [] { 1, 2, 3 };
+            yield return new[] { 4,5,6,7 };
+        }
+    }
+
+    [TestCaseSource(nameof(Testcases))]
+    public void Foo(Array values/*,params int[] extra*/)
+    {
+        Assert.That(values.Length, Is.GreaterThanOrEqualTo(3));
+        //Assert.That(extra.Length, Is.EqualTo(0));
+    }
+}
+
+public sealed class ParamsAsLastAfterIntParameterTests
+{
+    private static IEnumerable<Array> Testcases
+    {
+        get
+        {
+            yield return new[] { 1, 2, 3 };
+
+        }
+    }
+
+    [TestCaseSource(nameof(Testcases))]
+    public void Foo(int value, params int[] extra)
+    {
+        Assert.That(value, Is.Not.Zero);
+        Assert.That(extra.Length, Is.GreaterThanOrEqualTo(2));
+    }
+}
+
+public sealed class ArrayAsLastAfterIntParameterTests
+{
+    private static IEnumerable<Array> Testcases
+    {
+        get
+        {
+            yield return new[] { 1, 2, 3 };
+
+        }
+    }
+
+    [TestCaseSource(nameof(Testcases))]
+    public void Foo(int value, Array extra)
+    {
+        Assert.That(value, Is.Not.Zero);
+        Assert.That(extra.Length, Is.GreaterThanOrEqualTo(2));
+    }
+}

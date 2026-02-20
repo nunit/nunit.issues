@@ -110,21 +110,25 @@ public sealed class ParamsAsLastAfterIntParameterTests
     }
 }
 
-public sealed class ArrayAsLastAfterIntParameterTests
+public sealed class ArrayMeetsIndividualParameterTests
 {
     private static IEnumerable<Array> Testcases
     {
         get
         {
+            //  yield return new[] { 1, 2 }; // Fails in  Reflect.PopulateOptionalArgsAndParamsArray(MethodBase method, Type[] typeArgs, Object[] arguments, ParameterInfo[] parameterInfos) line 129
             yield return new[] { 1, 2, 3 };
+            //  yield return new[] { 1, 2, 3, 4 }; // Fails with System.IndexOutOfRangeException : Index was outside the bounds of the array.
 
         }
     }
 
     [TestCaseSource(nameof(Testcases))]
-    public void Foo(int value, Array extra)
+    public void Foo(int p1, int p2, int p3)
     {
-        Assert.That(value, Is.Not.Zero);
-        Assert.That(extra.Length, Is.GreaterThanOrEqualTo(2));
+        Assert.That(p1, Is.Not.Zero);
+        Assert.That(p2, Is.Not.Zero);
+        Assert.That(p3, Is.Not.Zero);
+
     }
 }

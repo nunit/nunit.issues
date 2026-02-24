@@ -8,6 +8,32 @@
       "is:enhancement",
       "closed:done"
     ],
-    "url": "https://github.com/nunit/nunit/issues/4613"
+    "url": "https://github.com/nunit/nunit/issues/4613",
+    "project_path": "Issue4613.csproj",
+    "target_frameworks": [
+      "net10.0"
+    ],
+    "packages": [
+      {
+        "name": "Microsoft.NET.Test.Sdk",
+        "version": "18.0.1"
+      },
+      {
+        "name": "NUnit",
+        "version": "4.5.0"
+      },
+      {
+        "name": "NUnit3TestAdapter",
+        "version": "6.1.0"
+      },
+      {
+        "name": "NUnit.Analyzers",
+        "version": "4.11.2"
+      },
+      {
+        "name": "coverlet.collector",
+        "version": "8.0.0"
+      }
+    ]
   }
 ]

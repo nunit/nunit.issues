@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11506.43 insiders
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issue5129", "Issue5129.csproj", "{A6425EBD-E73A-AF10-4E5C-23204CED9BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.framework", "..\..\nunit\src\NUnitFramework\framework\nunit.framework.csproj", "{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6425EBD-E73A-AF10-4E5C-23204CED9BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6425EBD-E73A-AF10-4E5C-23204CED9BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6425EBD-E73A-AF10-4E5C-23204CED9BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6425EBD-E73A-AF10-4E5C-23204CED9BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {672CC220-3B6E-4907-98F5-29E033009B8D}
+	EndGlobalSection
+EndGlobal

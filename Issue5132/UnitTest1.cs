@@ -1,4 +1,6 @@
-﻿namespace Issue5132;
+﻿using NUnit.Framework.Internal;
+
+namespace Issue5132;
 
 public class Tests
 {
@@ -20,7 +22,21 @@ public class Tests
       Assert.Pass();
     }
 
-      public static void SimplifyAbort()
+    [Test]
+    public void Test3()
+    {
+        for (int i = 0; i < 3; i++)
+            SimplifyAbort();
+    }
+
+    [Test]
+    public void Test4()
+    {
+        for (int i = 0; i < 3; i++)
+            SimplifyAbortFix();
+    }
+
+    public static void SimplifyAbort()
         {
             var thread = new Thread(() => 
             {
@@ -30,6 +46,31 @@ public class Tests
             thread.Join(500);
             thread.Abort();
         }
+
+    public static void SimplifyAbortFix()
+    {
+        var thread = new Thread(() =>
+        {
+            try
+            {
+                Thread.Sleep(1000);
+            }
+            catch (ThreadAbortException)
+            {
+                TestContext.Out.WriteLine("ThreadAbortException");
+                Thread.ResetAbort(); // optional: prevents rethrow at end of catch/finally
+            }
+        });
+
+        thread.Start();
+        thread.Join(500);
+
+        if (thread.IsAlive)
+            thread.Abort();
+
+        thread.Join(); // ensure it’s finished before returning
+    }
+
 }
 
 

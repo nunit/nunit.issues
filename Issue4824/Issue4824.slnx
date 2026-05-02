@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="nu45/nu45.csproj" />
+  <Project Path="nu46_net8/nu46_net8.csproj" />
+  <Project Path="nu46_net8_lang13/nu46_net8_lang13.csproj" />
+  <Project Path="nu46_net9/nu46_net9.csproj" />
+</Solution>

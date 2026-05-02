@@ -21,7 +21,6 @@ public class Tests_NUnit46_With_Net8_And_LangVersion_13
     }
     
     [Test]
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
     public void Row_2_TestFuncInlineLambda()
     {
         Func<int> func = () => 42;
@@ -37,7 +36,6 @@ public class Tests_NUnit46_With_Net8_And_LangVersion_13
     }
 
     [Test]
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
     public void Row_3_TestFuncAsVariable()
     {
         Func<int> func = () => 42;
@@ -62,7 +60,6 @@ public class Tests_NUnit46_With_Net8_And_LangVersion_13
 
     //Row 5: Func with constraint that evaluates result
     [Test]
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
     public void Row_5_TestFuncWithConstraintResult()
     {
         Assert.That(() => 42, Is.EqualTo(42)); // Example constraint that evaluates func's result

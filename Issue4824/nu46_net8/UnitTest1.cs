@@ -38,9 +38,7 @@ public class Tests_NUnit46_With_Net8
     public void Row_3_TestFuncAsVariable()
     {
         Func<int> func = () => 42;
-#pragma warning disable NUnit2021 // Analyzer not updated for NUnit 4.6 Func<T> execution behavior
         Assert.That(func, Is.EqualTo(42));
-#pragma warning restore NUnit2021
     }
 
     // Row 4: Explicit TestDelegate usage - ❌ Obsolete/breaking with NUnit 4.6
@@ -62,7 +60,6 @@ public class Tests_NUnit46_With_Net8
     // Row 5: Func with constraint that evaluates result - but doesn't do anything like that, this is useless
     // Test code checks that evaluating the constraint throws an assertion failure because the Func<int> itself is not equal to the expected value.
     [Test]
-    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
     public void Row_5_TestFuncWithConstraintResult()
     {
         Func<int> func = () => 42;

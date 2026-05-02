@@ -42,7 +42,7 @@ public class Tests
         Assert.That(func, Is.EqualTo(42));  // Error: no overload for Func<T>
     }
 
-    // Row 4: Explicit TestDelegate usage - ✅ Works today
+    // Row 4: Explicit TestDelegate/ActualValueDelegate usage - ✅ Works today
     [Test]
     public void TestExplicitTestDelegate()
     {
@@ -55,5 +55,13 @@ public class Tests
     {
         ActualValueDelegate<int> avd = () => 42;
         Assert.That(avd, Is.EqualTo(42));
+    }
+    
+    //Row 5: Func with constraint that evaluates result
+    [Test]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
+    public void TestFuncWithConstraintResult()
+    {
+        Assert.That(() => 42, Is.EqualTo(42)); // Example constraint that evaluates func's result
     }
 }

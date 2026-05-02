@@ -58,4 +58,15 @@ public class Tests
     //     ActualValueDelegate<int> avd = () => 42;
     //     Assert.That(avd, Is.EqualTo(42));  // Warning CS0618: ActualValueDelegate is obsolete
     // }
+
+    // Row 5: Func with constraint that evaluates result - but doesn't do anything like that, this is useless
+    // Test code checks that evaluating the constraint throws an assertion failure because the Func<int> itself is not equal to the expected value.
+    [Test]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
+    public void TestFuncWithConstraintResult()
+    {
+        Func<int> func = () => 42;
+        Action act = () => { Assert.That(func, Is.EqualTo(43)); };
+        Assert.That(act, Throws.Exception.TypeOf<AssertionException>());
+    }
 }

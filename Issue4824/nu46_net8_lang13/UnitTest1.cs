@@ -59,4 +59,12 @@ public class Tests
         ActualValueDelegate<int> avd = () => 42;
         Assert.That(avd, Is.EqualTo(42));  // Warning CS0618: ActualValueDelegate is obsolete
     }
+
+    //Row 5: Func with constraint that evaluates result
+    [Test]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Assertion", "NUnit2021:Incompatible types for EqualTo constraint", Justification = "<Pending>")]
+    public void TestFuncWithConstraintResult()
+    {
+        Assert.That(() => 42, Is.EqualTo(42)); // Example constraint that evaluates func's result
+    }
 }

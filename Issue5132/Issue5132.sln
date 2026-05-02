@@ -1,8 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issue5132", "Issue5132.csproj", "{07ADE7AA-8BF5-B544-55AE-0A3DB62B0A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.framework", "..\..\nunit\src\NUnitFramework\framework\nunit.framework.csproj", "{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +16,10 @@ Global
 		{07ADE7AA-8BF5-B544-55AE-0A3DB62B0A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07ADE7AA-8BF5-B544-55AE-0A3DB62B0A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07ADE7AA-8BF5-B544-55AE-0A3DB62B0A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBA365F-6A7E-96E0-BC67-3DC98E877A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

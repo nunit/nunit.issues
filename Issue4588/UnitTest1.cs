@@ -11,11 +11,11 @@ public class Tests
     /// Doesnt compile
     /// </summary>
     /// <returns></returns>
-    //[Test]
-    //public async Task Test0()
-    //{
-    //    await Assert.ThatAsync( () => Method(), Is.EqualTo(""));
-    //}
+    [Test]
+    public async Task Test0()
+    {
+        await Assert.ThatAsync(() => Method(), Is.EqualTo(""));
+    }
 
 
 

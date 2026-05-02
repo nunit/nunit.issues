@@ -22,6 +22,7 @@ public class Tests
       Assert.Pass();
     }
 
+    [UnhandledExceptionHandling(UnhandledExceptionHandling.Error)]
     [Test]
     public void Test3()
     {
@@ -29,6 +30,10 @@ public class Tests
             SimplifyAbort();
     }
 
+    
+    
+    
+    
     [Test]
     public void Test4()
     {
@@ -70,6 +75,22 @@ public class Tests
 
         thread.Join(); // ensure it’s finished before returning
     }
+
+
+
+    [Explicit]
+    [Timeout(300)]
+    [Test]
+    public void Test5()
+    {
+        var thread = new Thread(() =>
+        {
+            Thread.Sleep(1000);
+        });
+        thread.Start();
+        thread.Join(1200);
+    }
+    
 
 }
 

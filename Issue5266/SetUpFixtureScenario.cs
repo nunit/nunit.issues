@@ -1,12 +1,9 @@
-namespace Issue5266;
+namespace Issue5266.SetUpFixtureScenario;
 
 /// <summary>
-/// Repro for Issue 5266: SetupFixture failure repeats full exception for every affected test.
-///
-/// Run with: dotnet test --logger "console;verbosity=detailed"
-///
-/// Expected: The full exception details should appear once for the SetupFixture.
-/// Actual: The full exception and stack trace is repeated for every test case.
+/// Scenario 1: SetUpFixture (namespace-level) failure.
+/// The SetUpFixture fails, affecting all tests in this namespace.
+/// The full error is repeated for each test (Test1-Test5).
 /// </summary>
 [SetUpFixture]
 public class FailingSetupFixture
@@ -14,7 +11,6 @@ public class FailingSetupFixture
     [OneTimeSetUp]
     public void OneTimeSetUp()
     {
-        // Simulate a setup failure with a detailed exception
         throw new InvalidOperationException(
             "Database connection failed: Unable to connect to server 'localhost:5432'. " +
             "The server was not found or was not accessible.");

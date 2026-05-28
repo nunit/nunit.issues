@@ -5,13 +5,13 @@ namespace TestProject1
     {
         public TestsNotDiscovered()
         {
-            throw new Exception("Thrown in constructor");
+             throw new Exception("Thrown in constructor");
         }
 
         [OneTimeSetUp]
         public void Init()
         {
-            throw new Exception("Thrown in OneTimeSetUp");
+            // throw new Exception("Thrown in OneTimeSetUp");
         }
 
         [DatapointSource]

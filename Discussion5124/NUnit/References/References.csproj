@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netframework48</TargetFramework>
+    <Project>{c29bca7b-e363-42a0-a774-bfa47ce17936}</Project>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>

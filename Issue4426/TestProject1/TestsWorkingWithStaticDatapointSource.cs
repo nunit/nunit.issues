@@ -5,7 +5,7 @@ namespace TestProject1
     {
         public TestsWorkingWithStaticDatapointSource()
         {
-            throw new Exception("Thrown in constructor");
+            throw new Exception("Thrown in constructor for TestsWorkingWithStaticDatapointSource");
         }
 
         [DatapointSource]

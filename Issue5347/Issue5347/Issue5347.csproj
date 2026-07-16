@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\Issue5347.Tests\Tests.cs" Link="Tests.cs" />
+	  <Compile Include="..\Issue5347.Tests\Init.cs" Link="Init.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="NUnit" Version="5.0.0-beta.1" />
     <PackageReference Include="NUnitLite" Version="5.0.0-beta.1" />
-	  
-	  <!--<PackageReference Include="NUnit" Version="4.6.1" />
-	  <PackageReference Include="NUnitLite" Version="4.6.1" />-->
   </ItemGroup>
 
 </Project>

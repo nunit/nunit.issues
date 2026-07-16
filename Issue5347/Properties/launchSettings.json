@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "UsePrefilter": {
+      "commandName": "Project",
+      "commandLineArgs": "--prefilter=MyTests.Test2"
+    },
+    "Regular": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- For more information, see https://docs.microsoft.com/en-us/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file?view=vs-2019  -->
+
+<RunSettings>
+  <RunConfiguration>
+  </RunConfiguration>
+
+  <!-- Adapter Specific sections -->
+  <!-- NUnit3 adapter, uncomment sections to set as appropriate, numeric, booleans, enums have their default values below, except RandomSeed -->
+  <!-- For documentation, see https://docs.nunit.org/articles/vs-test-adapter/Tips-And-Tricks.html -->
+  <NUnit>    
+    <DumpXmlTestDiscovery>true</DumpXmlTestDiscovery>
+    <DumpXmlTestResults>true</DumpXmlTestResults>
+	<PreFilter>true</PreFilter>
+	<Where>test == MyTests.Test2</Where>
+  </NUnit>
+</RunSettings>
+

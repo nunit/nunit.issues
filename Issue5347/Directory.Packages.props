@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+	<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+	<PackageVersion Include="NUnit" Version="4.6.1" />
+	<PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
+	<PackageVersion Include="NUnitLite" Version="4.6.1" />
+  </ItemGroup>
+</Project>

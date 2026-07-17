@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="Issue5347.AdapterTests/Issue5347.AdapterTests.csproj" Id="b24a83fe-9028-49e4-9153-d744d8e18f73" />
   <Project Path="Issue5347.Tests/Issue5347.Tests.csproj" Id="3b26bea5-7eea-4d1a-9ec3-9120516e5734" />
   <Project Path="Issue5347/Issue5347.csproj" />
 </Solution>

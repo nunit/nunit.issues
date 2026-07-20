@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Issue5347.Tests\Tests.cs" Link="Tests.cs" />
+	  <Compile Include="..\Issue5347.Tests\Init.cs" Link="Init.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnitLite" />
+  </ItemGroup>
+
+</Project>

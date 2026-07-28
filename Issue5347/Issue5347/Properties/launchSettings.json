@@ -1,8 +1,13 @@
 {
   "profiles": {
-    "UsePrefilter": {
+    "UsePrefilter-StaticTests": {
       "commandName": "Project",
       "commandLineArgs": "--prefilter=MyTests.Test2"
+    },
+    "UsePrefilter-DynamicTests": {
+      "commandName": "Project",
+      "commandLineArgs": "--prefilter=Persons[Kelly-F-34]"
+      //"commandLineArgs": "--prefilter=\"UnitTest1.Persons(\\\"Kelly-F-34\\\")\""
     },
     "Regular": {
       "commandName": "Project",

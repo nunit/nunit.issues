@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EndUser/EndUser.csproj" />
+  <Project Path="Extensions/Extensions.csproj" />
+</Solution>

@@ -9,6 +9,18 @@ public class MyTypeFixture<T>
   public class MyMethodOneFixture
   {
     // test methods here for IMyServiceType.MyMethodOne
+    [Test]
+    public void TestMyMethodOne()
+    {
+        // Arrange
+        // var service = ServiceLocator.GetService<T>();
+
+        // Act
+        // service.MyMethodOne();
+
+        // Assert
+        // Add assertions here to verify the behavior of MyMethodOne
+    }
   }
   [TestFixture]
   public class MyMethodTwoFixture

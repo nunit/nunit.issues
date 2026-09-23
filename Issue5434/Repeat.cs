@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-namespace IssueXXXX;
+namespace Issue5434;
 
 public class Repeat
 {

@@ -9,7 +9,7 @@ public class Repeat
     {
         if (Random.Shared.NextDouble() > 0.5)
         {
-            Assert.Fail("Random failure");
+            throw new AssertionException("Random failure");
         }
     }
 }

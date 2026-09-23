@@ -5,6 +5,7 @@
     <OutputType>Exe</OutputType>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="7" />
     <PackageReference Include="NUnit" Version="4.6.1" />
     <PackageReference Include="NUnitLite" Version="4.6.1" />
   </ItemGroup>

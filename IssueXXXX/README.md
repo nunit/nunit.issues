@@ -1,1 +1,0 @@
-Run with `dotnet run -- --noresult` (just skips writing out a test results file.)

@@ -17,7 +17,7 @@ namespace Repro5478
 
 /*
 This is a reproduction of NUnit issue 5478.
-Run with: dotnet test -- NUnit.NumberOfTestWorkers=0   (avoids issue 5479)
+Run with: dotnet test
 Expected (bug): Read fails, because the dependency on Seed is ignored and Report runs first.
 Remove Repro5478.Child and Read passes.
 

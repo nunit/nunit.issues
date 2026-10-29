@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+    <!-- The runtime under test: no stack trace data, so Exception.StackTrace never names NUnit.Framework -->
+    <StackTraceSupport>false</StackTraceSupport>
+    <!-- Keep NUnit's reflection-based discovery working; trimming is not what this repro is about -->
+    <TrimMode>partial</TrimMode>
+    <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
+    <NoWarn>$(NoWarn);IL3050;IL3053;IL2104;IL3000</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="5.0.0" />
+    <PackageReference Include="NUnitLite" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TrimmerRootAssembly Include="AotRepro" />
+    <TrimmerRootAssembly Include="nunit.framework" />
+    <TrimmerRootAssembly Include="nunitlite" />
+  </ItemGroup>
+
+</Project>

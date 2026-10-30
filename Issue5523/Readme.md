@@ -6,15 +6,20 @@ The fixture class has one test method that fails, and a `OneTimeTearDown` that c
 The fixture result should stay `Failed` (site `Child`), because a test method failed. With NUnit 5.0.0 it becomes `Warning`.
 
 The fixture result is only visible in the NUnit XML (`<test-suite type="TestFixture">`), and in the overall result of the run.
-`dotnet test` and Test Explorer don't show it, so this repro runs the fixture with NUnitLite and reads `TestResult.xml`.
 
-## Run
+| Folder       | What it is                                                                                     |
+|--------------|------------------------------------------------------------------------------------------------|
+| `Tests`      | Ordinary test project, run with `dotnet test`. Shows the failing test method only.             |
+| `NUnitLite`  | Same fixture class run with NUnitLite. Reads `TestResult.xml` and prints the fixture result.   |
+
+## NUnitLite: run
 
 ```
+cd NUnitLite
 dotnet run
 ```
 
-## Actual (NUnit 5.0.0)
+### Actual (NUnit 5.0.0)
 
 ```
 Overall result: Warning
@@ -24,7 +29,7 @@ ottd warn
 BUG (issue 5523): the warning from OneTimeTearDown replaced the failure of the test method.
 ```
 
-## Expected (with PR 5527)
+### Expected (with PR 5527)
 
 ```
 Overall result: Failed

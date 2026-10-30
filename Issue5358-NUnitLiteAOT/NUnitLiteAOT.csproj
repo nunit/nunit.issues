@@ -7,16 +7,21 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
-	<ItemGroup>
+	<!-- Pass -p:NUnitSrc=C:\repos\nunit\nunit to test against a local NUnit build -->
+	<ItemGroup Condition="'$(NUnitSrc)' == ''">
 		<PackageReference Include="NUnit" Version="5.0.0-beta.1" />
 		<PackageReference Include="NUnitLite" Version="5.0.0-beta.1" />
 	</ItemGroup>
+	<ItemGroup Condition="'$(NUnitSrc)' != ''">
+		<ProjectReference Include="$(NUnitSrc)\src\NUnitFramework\framework\nunit.framework.csproj" />
+		<ProjectReference Include="$(NUnitSrc)\src\NUnitFramework\nunitlite\nunitlite.csproj" />
+	</ItemGroup>
 
 	<PropertyGroup>
-		<PublishSingleFile>true</PublishSingleFile>
-		<SelfContained>true</SelfContained>
 		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
-		<PublishTrimmed>true</PublishTrimmed>
+		<PublishAot>true</PublishAot>
+		<!-- Show each trim/AOT warning instead of one summary line per assembly -->
+		<TrimmerSingleWarn>false</TrimmerSingleWarn>
 	</PropertyGroup>
 	<ItemGroup>
 		<TrimmerRootAssembly Include="NUnitLiteAOT" />

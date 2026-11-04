@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(NUnitSrc)' == ''">
+    <PackageReference Include="NUnit" Version="5.0.0" />
+    <PackageReference Include="NUnitLite" Version="5.0.0" />
+  </ItemGroup>
+
+  <!-- dotnet publish -p:NUnitSrc=<nunit checkout> to test a fix -->
+  <ItemGroup Condition="'$(NUnitSrc)' != ''">
+    <ProjectReference Include="$(NUnitSrc)/src/NUnitFramework/framework/nunit.framework.csproj" />
+    <ProjectReference Include="$(NUnitSrc)/src/NUnitFramework/nunitlite/nunitlite.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../Tests/AotAsyncTests.cs" />
+    <Using Include="NUnit.Framework" />
+    <!-- the usual NUnit-on-AOT workaround (#5358); without it no tests are found -->
+    <TrimmerRootAssembly Include="Issue5554.NativeAot" />
+  </ItemGroup>
+
+</Project>
